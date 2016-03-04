@@ -2,15 +2,26 @@ package UML;
 
 /**
  * Created by coura on 03.03.2016.
+ *
+ * Создать UML диаграмму с классами Гитара, Фортепиано, Труба, используя класс Музыкальный инструмент.
+ * Открыть Музыкальный магазин.
+ *
+ *Написать классы на Java соответствующие
+ * UML диаграмме https://github.com/andrey-gabchak/GoJavaOnlineLabs/blob/master/src/UML/musical_instrumets(correct).jpg
+ * из задания к Модулю 2.
+ * Создать проект с исходниками и загрузить его на GitHub.
  */
 public class Music_store {
 
-    public static class Guitar {
+    class Instumetn {
     }
 
-    public static class Piano {
+    class Guitar extends Instumetn {
     }
 
-    public static class Trumpet {
+    class Piano extends Instumetn {
+    }
+
+    class Trumpet extends Instumetn {
     }
 }
