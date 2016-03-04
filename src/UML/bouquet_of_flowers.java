@@ -1,7 +1,7 @@
 package UML;
 
 /**
- * Created by coura on 03.03.2016.
+ * class bouquet_of_flowers
  *
  * Создать UML диаграмму с классами Роза, Ромашка, Астра, используя класс Цветок.
  * Собрать Букет цветов. Дополнить систему классами Тюльпан и Розовый куст.
@@ -10,7 +10,10 @@ package UML;
  * UML диаграмме https://github.com/andrey-gabchak/GoJavaOnlineLabs/blob/master/src/UML/flowers.jpg
  * из задания к Модулю 2.
  * Создать проект с исходниками и загрузить его на GitHub.
+ *
+ * Created by coura on 03.03.2016.
  */
+
 public class bouquet_of_flowers {
 
     class Flower {

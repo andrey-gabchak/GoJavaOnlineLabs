@@ -1,7 +1,7 @@
 package UML;
 
 /**
- * Created by coura on 03.03.2016.
+ * class Directoty
  *
  * Задание к Модулю 2.
  * Создать UML диаграмму с классами Текстовый файл, Аудио файл, Файл изображения, используя класс Файл.
@@ -12,7 +12,10 @@ package UML;
  * UML диаграмме https://github.com/andrey-gabchak/GoJavaOnlineLabs/blob/master/src/UML/directory.jpg
  * из задания к Модулю 2.
  * Создать проект с исходниками и загрузить его на GitHub.
+ *
+ * Created by coura on 03.03.2016.
  */
+
 public class Directoty {
 
     public class File {

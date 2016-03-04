@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="">
+    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="Добави">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UML/Directoty.java" afterPath="$PROJECT_DIR$/src/UML/Directoty.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UML/Music_store.java" afterPath="$PROJECT_DIR$/src/UML/Music_store.java" />
@@ -27,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UML/Directoty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.1356383">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bouquet_of_flowers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bouquet_of_flowers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UML/bouquet_of_flowers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0851064">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/UML/Music_store.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -83,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/Hello_World/FirstProgramm.java" />
         <option value="$PROJECT_DIR$/src/Hello_World/Hello.java" />
         <option value="$PROJECT_DIR$/src/UML/Music_store.java" />
-        <option value="$PROJECT_DIR$/src/UML/Directoty.java" />
         <option value="$PROJECT_DIR$/src/UML/bouquet_of_flowers.java" />
+        <option value="$PROJECT_DIR$/src/UML/Directoty.java" />
       </list>
     </option>
   </component>
@@ -595,7 +595,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457036281616</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Создал иерархию: суперкласс и подклассы">
+      <created>1457109463379</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1457109463379</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -653,7 +659,8 @@
     <MESSAGE value="Изменил название класса" />
     <MESSAGE value="Структура проекта согласно UML диаграммам" />
     <MESSAGE value="Родителями должны быть классы, а не пакеты. Пакеты не учитываются в UML диаграммах." />
-    <option name="LAST_COMMIT_MESSAGE" value="Родителями должны быть классы, а не пакеты. Пакеты не учитываются в UML диаграммах." />
+    <MESSAGE value="Создал иерархию: суперкласс и подклассы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал иерархию: суперкласс и подклассы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -748,23 +755,23 @@
     <entry file="file://$PROJECT_DIR$/src/UML/Music_store.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UML/Directoty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UML/bouquet_of_flowers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0851064">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UML/Directoty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1356383">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>
