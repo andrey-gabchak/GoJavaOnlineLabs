@@ -1,4 +1,6 @@
-package Module3;
+package Module3.MusicStore;
+
+import java.util.List;
 
 /**
  * class Music_store
@@ -14,17 +16,7 @@ package Module3;
  * Created by coura on 03.03.2016.
  */
 
-public class Music_store {
+public class MusicStore {
 
-    class Instumetn {
-    }
-
-    class Guitar extends Instumetn {
-    }
-
-    class Piano extends Instumetn {
-    }
-
-    class Trumpet extends Instumetn {
-    }
+    List<MusicalInstrument> musicalInstrumentList;
 }

@@ -1,4 +1,6 @@
-package Module3;
+package Module3.Directory;
+
+import java.util.List;
 
 /**
  * class Directoty
@@ -18,16 +20,5 @@ package Module3;
 
 public class Directoty {
 
-    public class File {
-
-    }
-
-    class Audio_file extends File {
-    }
-
-    class Image_file extends File {
-    }
-
-    class Text_file extends File {
-    }
+    List<File> files;
 }

@@ -1,4 +1,6 @@
-package Module3;
+package Module3.BouquetOfFlowers;
+
+import java.util.List;
 
 /**
  * class bouquet_of_flowers
@@ -16,21 +18,5 @@ package Module3;
 
 public class bouquet_of_flowers {
 
-    class Flower {
-    }
-
-    class Aster extends Flower {
-    }
-
-    class Daisy extends Flower {
-    }
-
-    class Rose extends Flower {
-    }
-
-    class Rose_bush extends Flower {
-    }
-
-    class Tulip extends Flower {
-    }
+    List<Flower> flowers;
 }
