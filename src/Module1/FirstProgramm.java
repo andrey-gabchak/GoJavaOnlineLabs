@@ -1,4 +1,4 @@
-package Hello_World;
+package Module1;
 
 /**
  * Created by Andrey on 26.02.2016.

@@ -1,4 +1,4 @@
-package UML;
+package Module3;
 
 /**
  * class Directoty
