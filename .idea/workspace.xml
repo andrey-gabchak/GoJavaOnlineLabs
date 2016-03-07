@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquet_of_flowers.java" afterPath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Aster.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Aster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Daisy.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Daisy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Flower.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Flower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Rose.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Rose.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/RoseBush.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/RoseBush.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Tulip.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/Tulip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/bouquet_of_flowers.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/bouquet_of_flowers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/AudioFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/AudioFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/Directoty.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/Directoty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/File.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/File.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/PicturesFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/PicturesFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/TextFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/TextFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" afterPath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
     </list>
     <ignored path="GoJavaOnlineLabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bouquetOfFlowers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java">
+      <file leaf-file-name="BouquetOfFlowers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29867986">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.4669967">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -198,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/RoseBush.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Tulip.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquet_of_flowers.java" />
+        <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
       </list>
     </option>
   </component>
@@ -1015,7 +1004,7 @@
       <workItem from="1457297573733" duration="71000" />
       <workItem from="1457299918991" duration="473000" />
       <workItem from="1457387984315" duration="131000" />
-      <workItem from="1457389128390" duration="31000" />
+      <workItem from="1457389128390" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1456434656929</created>
@@ -1113,11 +1102,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457381558006</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Поправил название класса на bouquetOfFlowers">
+      <created>1457389172455</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1457389172455</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17862000" />
+    <option name="totallyTimeSpent" value="18010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1134,6 +1129,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1147,7 +1143,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1182,7 +1177,8 @@
     <MESSAGE value="Цельсий → Фаренгейт, Фаренгейт → Цельсий" />
     <MESSAGE value="Растояние между двумя точками на осях XY" />
     <MESSAGE value="Сделал по аналогии с уроком 4.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал по аналогии с уроком 4.2" />
+    <MESSAGE value="Поправил название класса на bouquetOfFlowers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил название класса на bouquetOfFlowers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1260,7 +1256,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java">
+    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
@@ -1282,7 +1278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java">
+    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
@@ -1609,10 +1605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java">
+    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29867986">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.4669967">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
