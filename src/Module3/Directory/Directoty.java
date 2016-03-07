@@ -20,5 +20,16 @@ import java.util.List;
 
 public class Directoty {
 
-    List<File> files;
+    public static void main(String[] args) {
+
+        List<File> files;
+
+        AudioFile audioFile = new AudioFile();
+        PicturesFile picturesFile = new PicturesFile();
+        TextFile textFile = new TextFile();
+
+        System.out.println(audioFile.getFileType());
+        System.out.println(picturesFile.getFileType());
+        System.out.println(textFile.getFileType());
+    }
 }

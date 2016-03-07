@@ -14,5 +14,11 @@ package Module3.BouquetOfFlowers;
  * Created by coura on 06.03.2016.
  */
 
-public class RoseBush extends Flower {
+class RoseBush extends Flower {
+
+    private String flowersName = "Rose Bush";
+
+    public String getFlowersName() {
+        return this.flowersName;
+    }
 }

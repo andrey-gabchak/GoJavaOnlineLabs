@@ -17,4 +17,11 @@ package Module3.Directory;
  */
 
 public class PicturesFile extends File {
+
+    private String fileType = "Pictures File";
+
+    @Override
+    public String getFileType() {
+        return this.fileType;
+    }
 }

@@ -17,4 +17,11 @@ package Module3.Directory;
  */
 
 public class TextFile extends File {
+
+    private String fileType = "Text File";
+
+    @Override
+    public String getFileType() {
+        return this.fileType;
+    }
 }

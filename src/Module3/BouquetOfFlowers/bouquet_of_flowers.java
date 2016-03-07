@@ -18,5 +18,23 @@ import java.util.List;
 
 public class bouquet_of_flowers {
 
-    List<Flower> flowers;
+    public static void main(String[] args) {
+
+        List<Flower> flowers;
+
+        Aster aster = new Aster();
+        Daisy daisy = new Daisy();
+        Rose rose = new Rose();
+        RoseBush roseBush = new RoseBush();
+        Tulip tulip = new Tulip();
+
+        System.out.println(aster.getFlowersName());
+        System.out.println(daisy.getFlowersName());
+        System.out.println(rose.getFlowersName());
+        System.out.println(roseBush.getFlowersName());
+        System.out.println(tulip.getFlowersName());
+    }
+
+
+
 }

@@ -17,4 +17,11 @@ package Module3.Directory;
  */
 
 public class AudioFile extends File {
+
+    private String fileType = "Audio File";
+
+    @Override
+    public String getFileType() {
+        return this.fileType;
+    }
 }
