@@ -18,5 +18,16 @@ import java.util.List;
 
 public class MusicStore {
 
-    List<MusicalInstrument> musicalInstrumentList;
+    public static void main(String[] args) {
+        List<MusicalInstrument> musicalInstrumentList; //При чем тут класс MusicalInstrument?
+
+        Guitar guitar = new Guitar();
+        Piano piano = new Piano();
+        Trumpet trumpet = new Trumpet();
+
+        System.out.println(guitar.getInstrumentName());
+        System.out.println(piano.getInstrumentName());
+        System.out.println(trumpet.getInstrumentName());
+    }
+
 }

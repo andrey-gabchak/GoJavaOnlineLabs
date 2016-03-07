@@ -15,4 +15,10 @@ package Module3.MusicStore;
  */
 
 public class Piano extends MusicalInstrument {
+
+    private String instrumentName = "Piano";
+
+    public String getInstrumentName() {
+        return instrumentName;
+    }
 }

@@ -16,5 +16,9 @@ package Module3.MusicStore;
 
 public class Trumpet extends MusicalInstrument {
 
+    private String instrumentName = "Trumpet";
 
+    public String getInstrumentName() {
+        return instrumentName;
+    }
 }

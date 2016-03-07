@@ -15,4 +15,10 @@ package Module3.MusicStore;
  */
 
 public class MusicalInstrument {
+
+    private String instrumetnName;
+
+    public String getInstrumetnName() {
+        return instrumetnName;
+    }
 }
