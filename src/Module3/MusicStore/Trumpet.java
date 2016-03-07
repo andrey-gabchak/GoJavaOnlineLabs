@@ -15,4 +15,6 @@ package Module3.MusicStore;
  */
 
 public class Trumpet extends MusicalInstrument {
+
+
 }
