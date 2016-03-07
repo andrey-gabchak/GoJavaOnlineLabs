@@ -16,7 +16,7 @@ import java.util.List;
  * Created by coura on 03.03.2016.
  */
 
-public class bouquet_of_flowers {
+public class bouquetOfFlowers {
 
     public static void main(String[] args) {
 
