@@ -22,8 +22,6 @@ public class Directoty {
 
     public static void main(String[] args) {
 
-        List<File> files;
-
         AudioFile audioFile = new AudioFile();
         PicturesFile picturesFile = new PicturesFile();
         TextFile textFile = new TextFile();

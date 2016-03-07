@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" afterPath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" />
     </list>
     <ignored path="GoJavaOnlineLabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Directoty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.5231023">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -62,12 +62,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BouquetOfFlowers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BouquetOfFlowers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4669967">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module3/Directory/AudioFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <folding>
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/Module3/Directory/File.java" />
         <option value="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" />
         <option value="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" />
-        <option value="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" />
         <option value="$PROJECT_DIR$/src/Module3/Directory/TextFile.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Flower.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Aster.java" />
@@ -187,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Tulip.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquet_of_flowers.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
+        <option value="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" />
       </list>
     </option>
   </component>
@@ -427,7 +440,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BouquetOfFlowers" />
+              <option name="myItemId" value="Directory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1004,7 +1017,7 @@
       <workItem from="1457297573733" duration="71000" />
       <workItem from="1457299918991" duration="473000" />
       <workItem from="1457387984315" duration="131000" />
-      <workItem from="1457389128390" duration="179000" />
+      <workItem from="1457389128390" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1456434656929</created>
@@ -1108,11 +1121,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457389172455</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Поправил название класса на BouquetOfFlowers">
+      <created>1457389315469</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1457389315469</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18010000" />
+    <option name="totallyTimeSpent" value="18266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1178,7 +1197,8 @@
     <MESSAGE value="Растояние между двумя точками на осях XY" />
     <MESSAGE value="Сделал по аналогии с уроком 4.2" />
     <MESSAGE value="Поправил название класса на bouquetOfFlowers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил название класса на bouquetOfFlowers" />
+    <MESSAGE value="Поправил название класса на BouquetOfFlowers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил название класса на BouquetOfFlowers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1461,13 +1481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/AudioFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module3/Directory/TextFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1475,14 +1488,6 @@
           <folding>
             <element signature="e#706#707#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Directoty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1607,8 +1612,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4669967">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/AudioFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Directoty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5231023">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding />
         </state>
       </provider>
