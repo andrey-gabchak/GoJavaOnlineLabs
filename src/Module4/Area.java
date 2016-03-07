@@ -28,16 +28,14 @@ public class Area {
         // Вычисляем площадь треугольника
         if (figure == 1) {
             System.out.print("Введите размер первой стороны треугольника: ");
-            BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
-            String sSide1 = reader1.readLine();
+            BufferedReader triangle = new BufferedReader(new InputStreamReader(System.in));
+            String sSide1 = triangle.readLine();
 
             System.out.print("Введите размер второй стороны треугольника: ");
-            BufferedReader reader2 = new BufferedReader(new InputStreamReader(System.in));
-            String sSide2 = reader2.readLine();
+            String sSide2 = triangle.readLine();
 
             System.out.print("Введите размер третей стороны треугольника: ");
-            BufferedReader reader3 = new BufferedReader(new InputStreamReader(System.in));
-            String sSide3 = reader3.readLine();
+            String sSide3 = triangle.readLine();
 
             int side1 = Integer.parseInt(sSide1);
             int side2 = Integer.parseInt(sSide2);
@@ -71,9 +69,9 @@ public class Area {
 
             System.out.println("Введите размеры стороны прямоугольника: ");
 
-            BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
-            String sFirstSide = reader1.readLine();
-            String sSecondSide = reader1.readLine();
+            BufferedReader rectangle = new BufferedReader(new InputStreamReader(System.in));
+            String sFirstSide = rectangle.readLine();
+            String sSecondSide = rectangle.readLine();
 
             int firstside = Integer.parseInt(sFirstSide);
             int secondside = Integer.parseInt(sSecondSide);
@@ -84,12 +82,12 @@ public class Area {
             } else {
                 System.out.println("Сторона должна быть больше нуля!");
             }
-        } else if (figure == 3) {
+        } else if (figure == 3) { //Площадь круга
 
             System.out.print("Введите радиус круга: ");
 
-            BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
-            String sradius = reader1.readLine();
+            BufferedReader circle = new BufferedReader(new InputStreamReader(System.in));
+            String sradius = circle.readLine();
 
             int radius = Integer.parseInt(sradius);
 
