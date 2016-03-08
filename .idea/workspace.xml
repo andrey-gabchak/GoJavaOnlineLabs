@@ -2,8 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module3/Directory/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module3/MusicStore/Main.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/BouquetOfFlowers.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/BouquetOfFlowers/bouquet_of_flowers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/Directory.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/MusicStore.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module3/Directory/Directory.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.uml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/AudioFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/AudioFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/Directoty.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/Directoty.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/File.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/File.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/PicturesFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/PicturesFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/TextFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/TextFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/Guitar.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/Guitar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/MusicStore.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/MusicStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/MusicalInstrument.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/MusicalInstrument.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/Piano.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/Piano.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/Trumpet.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/MusicStore/Trumpet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module4/Area.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module4/Area.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" afterPath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/File.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/File.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/TextFile.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/TextFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/MusicStore/Guitar.java" afterPath="$PROJECT_DIR$/src/Module3/MusicStore/Guitar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java" afterPath="$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/MusicStore/MusicalInstrument.java" afterPath="$PROJECT_DIR$/src/Module3/MusicStore/MusicalInstrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/MusicStore/Piano.java" afterPath="$PROJECT_DIR$/src/Module3/MusicStore/Piano.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/MusicStore/Trumpet.java" afterPath="$PROJECT_DIR$/src/Module3/MusicStore/Trumpet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module4/Area.java" afterPath="$PROJECT_DIR$/src/Module4/Area.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module4/Distance.java" afterPath="$PROJECT_DIR$/src/Module4/Distance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module4/Temperature.java" afterPath="$PROJECT_DIR$/src/Module4/Temperature.java" />
     </list>
     <ignored path="GoJavaOnlineLabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,25 +60,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Directoty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5231023">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Aster.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-              </folding>
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicalInstrument.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicalInstrument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicStore.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43589744">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,11 +114,18 @@
         <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Flower.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-              </folding>
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,84 +134,20 @@
         <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AudioFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/Directory/AudioFile.java">
+      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module3/Directory/File.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Daisy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Daisy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rose.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Rose.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoseBush.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/RoseBush.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tulip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Tulip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/Directory/TextFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,18 +183,6 @@
         <option value="$PROJECT_DIR$/src/UML/Directoty.java" />
         <option value="$PROJECT_DIR$/src/Module3/Task2/Directoty.java" />
         <option value="$PROJECT_DIR$/src/Module3/MusicStore/Music_store.java" />
-        <option value="$PROJECT_DIR$/src/Module4/Area.java" />
-        <option value="$PROJECT_DIR$/src/Module4/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/Module4/Distance.java" />
-        <option value="$PROJECT_DIR$/src/Module3/MusicStore/Guitar.java" />
-        <option value="$PROJECT_DIR$/src/Module3/MusicStore/Piano.java" />
-        <option value="$PROJECT_DIR$/src/Module3/MusicStore/Trumpet.java" />
-        <option value="$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java" />
-        <option value="$PROJECT_DIR$/src/Module3/MusicStore/MusicalInstrument.java" />
-        <option value="$PROJECT_DIR$/src/Module3/Directory/File.java" />
-        <option value="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" />
-        <option value="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" />
-        <option value="$PROJECT_DIR$/src/Module3/Directory/TextFile.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Flower.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Aster.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Daisy.java" />
@@ -199,7 +191,23 @@
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Tulip.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquet_of_flowers.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
+        <option value="$PROJECT_DIR$/src/Module4/Area.java" />
+        <option value="$PROJECT_DIR$/src/Module4/Distance.java" />
+        <option value="$PROJECT_DIR$/src/Module4/Temperature.java" />
+        <option value="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" />
+        <option value="$PROJECT_DIR$/src/Module3/Directory/File.java" />
+        <option value="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" />
+        <option value="$PROJECT_DIR$/src/Module3/Directory/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/Module3/MusicStore/Guitar.java" />
+        <option value="$PROJECT_DIR$/src/Module3/MusicStore/Piano.java" />
+        <option value="$PROJECT_DIR$/src/Module3/MusicStore/Trumpet.java" />
         <option value="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" />
+        <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Main.java" />
+        <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java" />
+        <option value="$PROJECT_DIR$/src/Module3/Directory/Main.java" />
+        <option value="$PROJECT_DIR$/src/Module3/MusicStore/MusicalInstrument.java" />
+        <option value="$PROJECT_DIR$/src/Module3/MusicStore/Main.java" />
+        <option value="$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java" />
       </list>
     </option>
   </component>
@@ -421,6 +429,10 @@
               <option name="myItemId" value="Module3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -444,6 +456,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoJavaOnlineLabs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoJavaOnlineLabs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BouquetOfFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -462,67 +496,7 @@
       <recent name="C:\Users\coura\IdeaProjects\GoJavaOnlineLabs\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bouquet_of_flowers">
-    <configuration default="false" name="Temperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Module4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Module4.Temperature" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GoJavaOnlineLabs" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Module4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Module4.Distance" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GoJavaOnlineLabs" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MusicStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Module3.MusicStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Module3.MusicStore.MusicStore" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GoJavaOnlineLabs" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="false" name="Directoty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -551,6 +525,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Module3.BouquetOfFlowers.bouquet_of_flowers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GoJavaOnlineLabs" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Module3.Directory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Module3.Directory.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GoJavaOnlineLabs" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Module3.BouquetOfFlowers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Module3.BouquetOfFlowers.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GoJavaOnlineLabs" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Module3.MusicStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Module3.MusicStore.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -986,19 +1020,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Temperature" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Distance" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MusicStore" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Directoty" />
-      <item index="4" class="java.lang.String" itemvalue="Application.bouquet_of_flowers" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Directoty" />
+      <item index="1" class="java.lang.String" itemvalue="Application.bouquet_of_flowers" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.bouquet_of_flowers" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Directoty" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MusicStore" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Distance" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Temperature" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.bouquet_of_flowers" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Directoty" />
       </list>
     </recent_temporary>
   </component>
@@ -1017,7 +1051,7 @@
       <workItem from="1457297573733" duration="71000" />
       <workItem from="1457299918991" duration="473000" />
       <workItem from="1457387984315" duration="131000" />
-      <workItem from="1457389128390" duration="435000" />
+      <workItem from="1457389128390" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1456434656929</created>
@@ -1127,11 +1161,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457389315469</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Убрал List. Не нужно">
+      <created>1457389576957</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1457389576957</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18266000" />
+    <option name="totallyTimeSpent" value="20940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1148,11 +1188,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15141957" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33755943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25475842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1161,14 +1202,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33911672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1198,7 +1238,8 @@
     <MESSAGE value="Сделал по аналогии с уроком 4.2" />
     <MESSAGE value="Поправил название класса на bouquetOfFlowers" />
     <MESSAGE value="Поправил название класса на BouquetOfFlowers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил название класса на BouquetOfFlowers" />
+    <MESSAGE value="Убрал List. Не нужно" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал List. Не нужно" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1211,13 +1252,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Piano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1380,13 +1414,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.uml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module2/musical_instrumets(correct).jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1395,27 +1422,6 @@
     <entry file="file://$PROJECT_DIR$/src/Module2/directory.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module4/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module4/Temperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module4/Distance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -1429,65 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Guitar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Trumpet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicalInstrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Piano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/TextFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#706#707#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1509,17 +1456,6 @@
           <folding>
             <element signature="e#597#598#0" expanded="true" />
             <element signature="e#636#637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Flower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1557,63 +1493,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="177.0" y="0.0">Module3.BouquetOfFlowers.Flower</node>
-            <node x="0.0" y="153.0">Module3.BouquetOfFlowers.bouquet_of_flowers</node>
-            <node x="181.0" y="79.0">Module3.BouquetOfFlowers.Aster</node>
-            <node x="337.0" y="79.0">Module3.BouquetOfFlowers.Daisy</node>
-            <node x="78.0" y="79.0">Module3.BouquetOfFlowers.RoseBush</node>
-            <node x="260.0" y="79.0">Module3.BouquetOfFlowers.Rose</node>
-            <node x="0.0" y="79.0">Module3.BouquetOfFlowers.Tulip</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Module3.BouquetOfFlowers.Rose" target="Module3.BouquetOfFlowers.Flower">
-              <point x="0.0" y="-14.5" />
-              <point x="288.5" y="59.0" />
-              <point x="223.9" y="59.0" />
-              <point x="13.400000000000006" y="14.5" />
-            </edge>
-            <edge source="Module3.BouquetOfFlowers.Tulip" target="Module3.BouquetOfFlowers.Flower">
-              <point x="0.0" y="-14.5" />
-              <point x="29.0" y="49.0" />
-              <point x="183.7" y="49.0" />
-              <point x="-26.80000000000001" y="14.5" />
-            </edge>
-            <edge source="Module3.BouquetOfFlowers.Aster" target="Module3.BouquetOfFlowers.Flower">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="Module3.BouquetOfFlowers.Daisy" target="Module3.BouquetOfFlowers.Flower">
-              <point x="0.0" y="-14.5" />
-              <point x="367.0" y="49.0" />
-              <point x="237.3" y="49.0" />
-              <point x="26.80000000000001" y="14.5" />
-            </edge>
-            <edge source="Module3.BouquetOfFlowers.RoseBush" target="Module3.BouquetOfFlowers.Flower">
-              <point x="0.0" y="-14.5" />
-              <point x="119.5" y="59.0" />
-              <point x="197.1" y="59.0" />
-              <point x="-13.400000000000006" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="199.0" y="91.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/Module4/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
+    <entry file="file://$PROJECT_DIR$/src/Module4/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module4/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1621,18 +1520,140 @@
     <entry file="file://$PROJECT_DIR$/src/Module3/Directory/AudioFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/TextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Piano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Trumpet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45107794">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Directoty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5231023">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/BouquetOfFlowers/BouquetOfFlowers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicalInstrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43589744">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>

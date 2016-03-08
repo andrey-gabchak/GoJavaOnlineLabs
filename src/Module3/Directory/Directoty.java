@@ -18,9 +18,9 @@ import java.util.List;
  * Created by coura on 03.03.2016.
  */
 
-public class Directoty {
+class Directoty {
 
-    public static void main(String[] args) {
+    static void someFiles() {
 
         AudioFile audioFile = new AudioFile();
         PicturesFile picturesFile = new PicturesFile();

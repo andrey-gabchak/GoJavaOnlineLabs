@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  */
 
 public class Distance {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 
         System.out.println("Введите координаты первой точки. Х1 = ");
         BufferedReader point = new BufferedReader(new InputStreamReader(System.in));

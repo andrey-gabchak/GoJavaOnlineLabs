@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 
 public class Area {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         System.out.println("Выберите площадь какой фигуры нужно расчитать:");
         System.out.println("Треугольник - введите 1");
         System.out.println("Прямоугольник - введите 2");
@@ -25,7 +25,7 @@ public class Area {
 
         int figure = Integer.parseInt(sfigure);
 
-        // Вычисляем площадь треугольника
+        // calculate the area of a triangle
         if (figure == 1) {
             System.out.print("Введите размер первой стороны треугольника: ");
             BufferedReader triangle = new BufferedReader(new InputStreamReader(System.in));
@@ -45,7 +45,7 @@ public class Area {
             int summSide2 = side1 + side3;
             int summSide3 = side2 + side3;
 
-            if ((side1 > 0) && (side2 > 0) && (side3 > 0)) { // Стороны треугольника должны быть больше нуля, чтобы посчитать площадь
+            if ((side1 > 0) && (side2 > 0) && (side3 > 0)) { // side of the triangle must be greater than zero, to calculate the area
                 if ((summSide1 > side3) && (summSide2 > side2) && (summSide3 > side1)) {
 
                     double perimeter = (side1 + side2 + side3) / 2.0;
@@ -65,7 +65,7 @@ public class Area {
                 System.out.println("Сторона должна быть больше нуля!");
             }
 
-        } else if (figure == 2) { // Площадь прямоугольника
+        } else if (figure == 2) { // calculate the area of a rectangle
 
             System.out.println("Введите размеры стороны прямоугольника: ");
 
@@ -82,7 +82,7 @@ public class Area {
             } else {
                 System.out.println("Сторона должна быть больше нуля!");
             }
-        } else if (figure == 3) { //Площадь круга
+        } else if (figure == 3) { // the area of a circle
 
             System.out.print("Введите радиус круга: ");
 
@@ -91,7 +91,7 @@ public class Area {
 
             int radius = Integer.parseInt(sradius);
 
-            if (radius > 0) { // Площадь круга по радиусу
+            if (radius > 0) { // calculate the area of a circle the radius
                 double area = Math.PI * Math.pow(radius, 2.0);
                 System.out.println("Площадь круга равна: " + area);
             } else {

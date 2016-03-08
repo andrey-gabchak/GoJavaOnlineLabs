@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  */
 public class Temperature {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 
         System.out.println("Если вы хотите перевести градусы Цельсия в Фаренгейты введите \"c\".");
         System.out.println("Если вы хотите перевести Фаренгейты в градусы Цельсия введите \"f\".");

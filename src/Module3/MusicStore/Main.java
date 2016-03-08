@@ -1,9 +1,7 @@
 package Module3.MusicStore;
 
-import java.util.List;
-
 /**
- * class MusicStore
+ * class Main
  *
  * Создать UML диаграмму с классами Гитара, Фортепиано, Труба, используя класс Музыкальный инструмент.
  * Открыть Музыкальный магазин.
@@ -13,20 +11,14 @@ import java.util.List;
  * из задания к Модулю 2.
  * Создать проект с исходниками и загрузить его на GitHub.
  *
- * Created by coura on 03.03.2016.
+ * Created by coura on 08.03.2016.
  */
+public class Main {
 
-class MusicStore {
+    public static void main(String[] args) {
 
-    static void someInstrumetn() {
+        MusicStore musicStore = new MusicStore();
 
-        Guitar guitar = new Guitar();
-        Piano piano = new Piano();
-        Trumpet trumpet = new Trumpet();
-
-        System.out.println(guitar.getInstrumentName());
-        System.out.println(piano.getInstrumentName());
-        System.out.println(trumpet.getInstrumentName());
+        MusicStore.someInstrumetn();
     }
-
 }

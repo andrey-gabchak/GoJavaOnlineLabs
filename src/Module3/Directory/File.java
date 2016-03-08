@@ -16,7 +16,7 @@ package Module3.Directory;
  * Created by coura on 06.03.2016.
  */
 
-public abstract class File {
+abstract class File {
 
     private String fileType;
 

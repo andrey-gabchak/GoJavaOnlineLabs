@@ -1,7 +1,7 @@
 package Module3.Directory;
 
 /**
- * class TextFile
+ * class Main
  *
  * Задание к Модулю 2.
  * Создать UML диаграмму с классами Текстовый файл, Аудио файл, Файл изображения, используя класс Файл.
@@ -13,15 +13,15 @@ package Module3.Directory;
  * из задания к Модулю 2.
  * Создать проект с исходниками и загрузить его на GitHub.
  *
- * Created by coura on 06.03.2016.
+ * Created by coura on 08.03.2016.
  */
 
-class TextFile extends File {
+public class Main {
 
-    private String fileType = "Text File";
+    public static void main(String[] args) {
 
-    @Override
-    public String getFileType() {
-        return this.fileType;
+        Directoty directoty = new Directoty();
+
+        Directoty.someFiles();
     }
 }

@@ -16,7 +16,7 @@ package Module3.Directory;
  * Created by coura on 06.03.2016.
  */
 
-public class AudioFile extends File {
+class AudioFile extends File {
 
     private String fileType = "Audio File";
 

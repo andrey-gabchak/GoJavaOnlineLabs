@@ -14,7 +14,7 @@ package Module3.MusicStore;
  * Created by coura on 06.03.2016.
  */
 
-public abstract class MusicalInstrument {
+abstract class MusicalInstrument {
 
     private String instrumetnName;
 

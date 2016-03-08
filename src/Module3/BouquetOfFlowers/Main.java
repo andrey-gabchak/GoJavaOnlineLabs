@@ -1,9 +1,7 @@
 package Module3.BouquetOfFlowers;
 
-import java.util.List;
-
 /**
- * class bouquet_of_flowers
+ * class Main
  *
  * Создать UML диаграмму с классами Роза, Ромашка, Астра, используя класс Цветок.
  * Собрать Букет цветов. Дополнить систему классами Тюльпан и Розовый куст.
@@ -13,23 +11,15 @@ import java.util.List;
  * из задания к Модулю 2.
  * Создать проект с исходниками и загрузить его на GitHub.
  *
- * Created by coura on 03.03.2016.
+ * Created by coura on 08.03.2016.
  */
 
-class BouquetOfFlowers {
+public class Main {
 
-    static void someFlowers() {
+    public static void main(String[] args) {
 
-        Aster aster = new Aster();
-        Daisy daisy = new Daisy();
-        Rose rose = new Rose();
-        RoseBush roseBush = new RoseBush();
-        Tulip tulip = new Tulip();
+        BouquetOfFlowers bouquetOfFlowers = new BouquetOfFlowers();
 
-        System.out.println(aster.getFlowersName());
-        System.out.println(daisy.getFlowersName());
-        System.out.println(rose.getFlowersName());
-        System.out.println(roseBush.getFlowersName());
-        System.out.println(tulip.getFlowersName());
+        BouquetOfFlowers.someFlowers();
     }
 }
