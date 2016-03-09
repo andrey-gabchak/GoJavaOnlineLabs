@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 /**
  * class Distance
  *
- * Создать класс вычисляющий расстояние между двумя точками,
- * представленными координатами в двумерном пространстве (x1, y1), (x2, y2).
+ * Create a class calculates the distance between two points,
+ * Represented in two-dimensional space coordinates (x1, y1), (x2, y2).
  *
  * Created by coura on 07.03.2016.
  */
@@ -16,14 +16,14 @@ import java.io.InputStreamReader;
 public class Distance {
     public static void main(String[] args) throws Exception {
 
-        System.out.println("Введите координаты первой точки. Х1 = ");
+        System.out.println("Enter the coordinates of the first point. X1 = ");
         BufferedReader point = new BufferedReader(new InputStreamReader(System.in));
 
         String spointX1 = point.readLine();
         System.out.println("Y1 = ");
         String spointY1 = point.readLine();
 
-        System.out.println("Введите координаты второй точки. Х2 = ");
+        System.out.println("Enter the coordinates of the second point. X2 = ");
         String spointX2 = point.readLine();
         System.out.println("Y2 = ");
         String spointY2 = point.readLine();
@@ -35,6 +35,6 @@ public class Distance {
 
         double distance = Math.sqrt(Math.pow(pointX2 - pointX1, 2.0) + Math.pow(pointY2 - pointY1, 2.0));
 
-        System.out.println("Расстояние между двумя точками: " + distance);
+        System.out.println("The distance between two points: " + distance);
     }
 }
