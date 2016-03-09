@@ -3,13 +3,13 @@ package Module3.MusicStore;
 /**
  * class Trumpet
  *
- * Создать UML диаграмму с классами Гитара, Фортепиано, Труба, используя класс Музыкальный инструмент.
- * Открыть Музыкальный магазин.
+ * Create a UML diagram with guitar, piano, trumpet, musical instrument using a class.
+ * Open Music Store.
  *
- *Написать классы на Java соответствующие
- * UML диаграмме https://github.com/andrey-gabchak/GoJavaOnlineLabs/blob/master/src/UML/musical_instrumets(correct).jpg
- * из задания к Модулю 2.
- * Создать проект с исходниками и загрузить его на GitHub.
+ * Write to the corresponding Java classes
+ * UML diagramhttps://github.com/andrey-gabchak/GoJavaOnlineLabs/blob/master/src/UML/musical_instrumets(correct).jpg
+ * From job to Module 2.
+ * Create a project with a source code and upload it to GitHub.
  *
  * Created by coura on 06.03.2016.
  */
