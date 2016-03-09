@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="">
+    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="Names and comments in English">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module4/Distance.java" afterPath="$PROJECT_DIR$/src/Module4/Distance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module4/Temperature.java" afterPath="$PROJECT_DIR$/src/Module4/Temperature.java" />
     </list>
     <ignored path="GoJavaOnlineLabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Directoty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Module3/Directory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,11 +76,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Distance.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Distance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Module4/Distance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74752474">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Module4/Temperature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.009901">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -164,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Tulip.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquet_of_flowers.java" />
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
-        <option value="$PROJECT_DIR$/src/Module4/Temperature.java" />
         <option value="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" />
         <option value="$PROJECT_DIR$/src/Module3/Directory/File.java" />
         <option value="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" />
@@ -181,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/Module3/MusicStore/MusicStore.java" />
         <option value="$PROJECT_DIR$/src/Module4/Area.java" />
         <option value="$PROJECT_DIR$/src/Module4/Distance.java" />
+        <option value="$PROJECT_DIR$/src/Module4/Temperature.java" />
       </list>
     </option>
   </component>
@@ -977,7 +977,7 @@
       <workItem from="1457299918991" duration="473000" />
       <workItem from="1457387984315" duration="131000" />
       <workItem from="1457389128390" duration="5090000" />
-      <workItem from="1457550459785" duration="349000" />
+      <workItem from="1457550459785" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1456434656929</created>
@@ -1105,11 +1105,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457550764285</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Names and comments in English">
+      <created>1457550812238</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1457550812238</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23270000" />
+    <option name="totallyTimeSpent" value="23383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1126,7 +1132,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33123028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1413,13 +1419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module4/Temperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module3/Directory/AudioFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1547,8 +1546,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Module4/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74752474">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module4/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.009901">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
           <folding />
         </state>
       </provider>

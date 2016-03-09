@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 /**
  * class Temperature
  *
- * Создать класс преобразующий значение температуры по шкале Цельсия
- * в значение по шкале Фаренгейта и в обратном направлении.
+ * Create a class value converting Celsius temperature
+ * Value in Fahrenheit and vice versa.
  *
  * Created by coura on 07.03.2016.
  */
@@ -16,8 +16,8 @@ public class Temperature {
 
     public static void main(String[] args) throws Exception {
 
-        System.out.println("Если вы хотите перевести градусы Цельсия в Фаренгейты введите \"c\".");
-        System.out.println("Если вы хотите перевести Фаренгейты в градусы Цельсия введите \"f\".");
+        System.out.println("If you want to convert Celsius to Fahrenheit, type \"c\".");
+        System.out.println("If you want to convert Fahrenheit to Celsius, type \"f\".");
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -29,14 +29,14 @@ public class Temperature {
         if (degrees.equals("c")) {
 
             double fahrenheit = (temperature * 1.8) + 32;
-            System.out.println(temperature + "\'C это " + fahrenheit + "\'F");
+            System.out.println(temperature + "\'C it's " + fahrenheit + "\'F");
 
         } else if (degrees.equals("f")) {
 
             double celsius = (temperature - 32) / 1.8;
-            System.out.println(temperature + "\'F это " + celsius + "\'C");
+            System.out.println(temperature + "\'F it's " + celsius + "\'C");
         } else {
-            System.out.println("Не корректный ввод.");
+            System.out.println("Incorrect input.");
         }
     }
 }
