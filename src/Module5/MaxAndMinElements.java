@@ -15,8 +15,8 @@ public class MaxAndMinElements {
 
         int[] intArray = {0, 1, 2, 4, 10, 6, 1};
 
-        System.out.println(Minimum(intArray));
-        System.out.println(Maximum(intArray));
+        System.out.println("Min element = " + Minimum(intArray));
+        System.out.println("Msx element = " + Maximum(intArray));
 
     }
 

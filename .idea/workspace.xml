@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="Names and comments in English">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module5/MaxAndMinElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/PicturesFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/PicturesFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module4/Area.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module4/Area.class" />
+    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module5/MaxAndMinElements2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" afterPath="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/bouquetOfFlowers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module4/Area.java" afterPath="$PROJECT_DIR$/src/Module4/Area.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module5/MaxAndMinElements.java" afterPath="$PROJECT_DIR$/src/Module5/MaxAndMinElements.java" />
     </list>
     <ignored path="GoJavaOnlineLabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +30,18 @@
       <file leaf-file-name="MaxAndMinElements.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Module5/MaxAndMinElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.95153064">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.6505102">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxAndMinElements2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module5/MaxAndMinElements2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -117,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/Module3/BouquetOfFlowers/Tulip.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Module4/Area.java" />
+        <option value="$PROJECT_DIR$/src/Module5/MaxAndMinElements2.java" />
         <option value="$PROJECT_DIR$/src/Module5/MaxAndMinElements.java" />
       </list>
     </option>
@@ -358,27 +365,7 @@
       <recent name="C:\Users\coura\IdeaProjects\GoJavaOnlineLabs\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxAndMinElements">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Module3.Directory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Module3.Directory.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GoJavaOnlineLabs" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MaxAndMinElements2">
     <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -447,6 +434,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Module5.MaxAndMinElements" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GoJavaOnlineLabs" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxAndMinElements2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Module5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Module5.MaxAndMinElements2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -882,19 +889,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Area" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MaxAndMinElements" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Area" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MaxAndMinElements" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MaxAndMinElements2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MaxAndMinElements" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Area" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MaxAndMinElements2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MaxAndMinElements" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Area" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -916,7 +923,7 @@
       <workItem from="1457389128390" duration="5090000" />
       <workItem from="1457550459785" duration="4227000" />
       <workItem from="1457702448263" duration="820000" />
-      <workItem from="1457707424123" duration="3318000" />
+      <workItem from="1457707424123" duration="3660000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1456434656929</created>
@@ -1062,11 +1069,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457551094586</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Max and min elements in array. Version 1">
+      <created>1457710791867</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1457710791867</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31286000" />
+    <option name="totallyTimeSpent" value="31628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1136,7 +1149,8 @@
     <MESSAGE value="Убрал List. Не нужно" />
     <MESSAGE value="Added the method main and deleted collection" />
     <MESSAGE value="Names and comments in English" />
-    <option name="LAST_COMMIT_MESSAGE" value="Names and comments in English" />
+    <MESSAGE value="Max and min elements in array. Version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max and min elements in array. Version 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1149,11 +1163,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Module2/directory.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module2/flowers.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1421,6 +1430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,10 +1506,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module5/MaxAndMinElements2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module5/MaxAndMinElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.95153064">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.6505102">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
