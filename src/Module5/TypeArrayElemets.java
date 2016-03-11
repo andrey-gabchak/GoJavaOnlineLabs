@@ -1,21 +1,19 @@
 package Module5;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * class MaxAndMinElements
+ * class TypeArrayElements
  *
- * Create a class that implements the search for the maximum and minimum elements
- * in an array of integers (int []).
+ * Ability to define size of the array, and then enter the elements of the array.
+ * The number of elements in the array should not be limited.
+ * Bonus task
  *
  * Created by coura on 11.03.2016.
  */
-
-public class MaxAndMinElementsSort {
+public class TypeArrayElemets {
 
     public static void main(String[] args) {
-
         Scanner sSize = new Scanner(System.in);
         System.out.print("Enter the number of elements in the array: ");
         int size = sSize.nextInt();
@@ -29,9 +27,8 @@ public class MaxAndMinElementsSort {
             intArray[i] = arrayElemets.nextInt();
         }
 
-        Arrays.sort(intArray);
-
-        System.out.println("Min element = " + intArray[0]);
-        System.out.println("Max element = " + intArray[intArray.length - 1]);
+        for (int element : intArray) {
+            System.out.println(element);
+        }
     }
 }
