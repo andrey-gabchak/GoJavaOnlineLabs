@@ -11,7 +11,7 @@ import java.util.Arrays;
  * Created by coura on 11.03.2016.
  */
 
-public class MaxAndMinElements2 {
+public class MaxAndMinElementsSort {
 
     public static void main(String[] args) {
 
