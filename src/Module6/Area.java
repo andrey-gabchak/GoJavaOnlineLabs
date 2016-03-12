@@ -6,6 +6,8 @@ import java.util.Scanner;
  * class Area
  *
  * Create a class that calculates the area of simple geometric figures: triangle, rectangle and circle.
+ * Please add the code of existing classes of exception handling. In this case use an existing class.
+ * Create your own exception class and write code for its generation and processing.
  *
  * Created by coura on 07.03.2016.
  */
@@ -90,7 +92,9 @@ public class Area {
                 throw new FigureExcepion(figure); //custom exception
             } catch (FigureExcepion e) {
                 System.out.println("[Error]: Permission incorrect value! It is necessary to select 1, 2 or 3.");
-            } catch (Exception e) {} // Standard exception
+            } catch (Exception e) { // Standard exception
+                System.out.println("[Error]: Permission incorrect value! It is necessary to select 1, 2 or 3.");
+            }
         }
     }
 }
