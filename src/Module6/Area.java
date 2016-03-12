@@ -90,7 +90,7 @@ public class Area {
                 throw new FigureExcepion(figure); //custom exception
             } catch (FigureExcepion e) {
                 System.out.println("[Error]: Permission incorrect value! It is necessary to select 1, 2 or 3.");
-            }
+            } catch (Exception e) {} // Standard exception
         }
     }
 }
