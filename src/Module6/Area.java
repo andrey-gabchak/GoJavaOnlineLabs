@@ -40,15 +40,15 @@ public class Area {
             int summSide3 = side2 + side3;
 
             /**
-             * В 6-ом модуле для исключений я использовал задачу
-             * по нахождению площади фигурс 4-го модуля.
-             * Соответственно код дублируется.
-             * Варианты решения:
-             * 1. Вынести находжение площади фигур в одтельные методы в /Module4/Area.class.
-             * Вызывать методы в /Module6/Area.class, а не дублировать код.
-             * 2. Вынести расчет площади фигур в одтельные классы.
-             * Например, TriangleArea.class.
-             * И вызывать классы при необходимости расчета фигуры.
+             * In the module 6 to the exceptions I have used the task
+             * from the 4th module (finding the area of figures).
+             * Anti-pattern duplicated code (Copy/Paste).
+             * Possible solutions:
+             * 1. Expose the area to find figures in the individual methods in /Module4/Area.class.
+             * Calling methods in /Module6/Area.class, and not duplicate code.
+             * 2. To carry out the calculation figures in the area of individual classes.
+             * For example, TriangleArea.class.
+             * And cause classes if needed for calculating the figures.
              */
 
             if ((side1 > 0) && (side2 > 0) && (side3 > 0)) {
