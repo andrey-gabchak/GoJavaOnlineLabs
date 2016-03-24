@@ -1,5 +1,6 @@
 package Module6;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -14,7 +15,7 @@ import java.util.Scanner;
 
 public class Area {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("Select the area of a shape necessary to calculate:");
         System.out.println("Triangle - type 1");
         System.out.println("Rectangle - enter 2");
@@ -25,79 +26,27 @@ public class Area {
 
         // calculate the area of a triangle
         if (figure == 1) {
-            System.out.print("Enter the first side of the triangle size: ");
-            Scanner sSideFigure = new Scanner(System.in);
-            int side1 = sSideFigure.nextInt();
-
-            System.out.print("Enter the size of the second side of the triangle: ");
-            int side2 = sSideFigure.nextInt();
-
-            System.out.print("Enter the third side of the triangle size: ");
-            int side3 = sSideFigure.nextInt();
-
-            int summSide1 = side1 + side2;
-            int summSide2 = side1 + side3;
-            int summSide3 = side2 + side3;
 
             /**
              * In the module 6 to the exceptions I have used the task
-             * from the 4th module (finding the area of figures).
-             * Anti-pattern duplicated code (Copy/Paste).
-             * Possible solutions:
-             * 1. Expose the area to find figures in the individual methods in /Module4/Area.class.
-             * Calling methods in /Module6/Area.class, and not duplicate code.
-             * 2. To carry out the calculation figures in the area of individual classes.
-             * For example, TriangleArea.class.
-             * And cause classes if needed for calculating the figures.
+             * from the 4th module (finding the area of figures).
+             * Anti-pattern duplicated code (Copy/Paste).
+             * Possible solutions:
+             * 1. Expose the area to find figures in the individual methods in /Module4/Area.class.
+             * Calling methods in /Module6/Area.class, and not duplicate code.
+             * 2. To carry out the calculation figures in the area of individual classes.
+             * For example, TriangleArea.class.
+             * And cause classes if needed for calculating the figures.
              */
 
-            if ((side1 > 0) && (side2 > 0) && (side3 > 0)) {
-                if ((summSide1 > side3) && (summSide2 > side2) && (summSide3 > side1)) {
-
-                    double perimeter = (side1 + side2 + side3) / 2.0;
-
-                    double area;
-                    area = Math.sqrt(perimeter * (perimeter - side1) * (perimeter - side2) * (perimeter - side3));
-
-                    System.out.println("The area of a triangle is: " + area);
-
-                } else {
-
-                    System.out.println("Triangle with such parties does not exist!");
-                }
-
-            } else {
-
-                System.out.println("Side should be greater than zero!");
-            }
+            Module4.Area.TriagleArea();
 
         } else if (figure == 2) { // calculate the area of a rectangle
+            Module4.Area.RectangleArea();
 
-            System.out.println("Enter the dimensions of the rectangle: ");
-
-            Scanner rectangle = new Scanner(System.in);
-            int firstside = rectangle.nextInt();
-            int secondside = rectangle.nextInt();
-
-            if ((firstside > 0) && (secondside > 0)) {
-                int area = firstside * secondside;
-                System.out.println("The area is: " + area);
-            } else {
-                System.out.println("Side should be greater than zero!");
-            }
         } else if (figure == 3) { // the area of a circle
+            Module4.Area.CircleArea();
 
-            System.out.print("Enter the radius of the circle: ");
-
-            Scanner circle = new Scanner(System.in);
-            int radius = circle.nextInt();
-
-            if (radius > 0) { // calculate the area of a circle the radius
-                double area = Math.PI * Math.pow(radius, 2.0);
-                System.out.println("area of a circle is: " + area);
-            } else {
-                System.out.println("The radius must be greater than zero!");
-            }
         } else {
             //custom exception
             try {
