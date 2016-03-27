@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * class Directoty
  *
  * Setting for Module 2.
- * Create a UML diagram with the classes text file, audio file, image file, using the File class.
+ * Create a UML diagram with the classes text File, audio File, image File, using the File class.
  * Create a class directory containing files of different formats.
  *
  * Setting for Module 3.
@@ -20,25 +20,17 @@ import java.util.ArrayList;
 
 class Directoty {
 
-    void someFiles() {
+    ArrayList<File> someFiles = new ArrayList<>();
 
-        ArrayList<File> files = new ArrayList<>();
-
-        AudioFile audio = new AudioFile();
-        audio.setFileName("BumBox");
-        files.add(audio);
-
-        PicturesFile pictures = new PicturesFile();
-        pictures.setFileName("Goverla");
-        files.add(pictures);
-
-        TextFile text = new TextFile();
-        text.setFileName("Coursework");
-        files.add(text);
-
-        for (File n : files) {
-            System.out.println(n);
-        }
+    public void addFiles (File file) {
+        someFiles.add(file);
     }
 
+    public ArrayList<File> getSomeFiles() {
+        return someFiles;
+    }
+
+    public void setSomeFiles(ArrayList<File> someFiles) {
+        this.someFiles = someFiles;
+    }
 }

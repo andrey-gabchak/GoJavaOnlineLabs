@@ -4,7 +4,7 @@ package Module8.Directory;
  * class AudioFile
  *
  * Setting for Module 2.
- * Create a UML diagram with the classes text file, audio file, image file, using the File class.
+ * Create a UML diagram with the classes text File, audio File, image File, using the File class.
  * Create a class directory containing files of different formats.
  *
  * Setting for Module 3.
@@ -19,14 +19,28 @@ package Module8.Directory;
 class AudioFile extends File {
 
     private String fileName;
+    private String fileFormat;
+    private double fileSize;
+
+    public AudioFile(String fileName, String fileFormat, double fileSize) {
+        super(fileName, fileFormat, fileSize);
+        this.fileName = fileName;
+        this.fileFormat = fileFormat;
+        this.fileSize = fileSize;
+    }
 
     @Override
     public void setFileName(String fileName) {
-        this.fileName = fileName + ".mp3";
+        this.fileName = fileName;
     }
 
     @Override
     public String getFileName() {
         return fileName;
+    }
+
+    @Override
+    public String toString() {
+        return fileName + fileFormat + fileSize;
     }
 }

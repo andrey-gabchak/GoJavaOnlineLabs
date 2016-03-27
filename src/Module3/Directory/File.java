@@ -4,7 +4,7 @@ package Module3.Directory;
  * class File
  *
  * Setting for Module 2.
- * Create a UML diagram with the classes text file, audio file, image file, using the File class.
+ * Create a UML diagram with the classes text File, audio File, image File, using the File class.
  * Create a class directory containing files of different formats.
  *
  * Setting for Module 3.
