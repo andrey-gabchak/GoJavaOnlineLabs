@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Aster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/BouquetOfFlowers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Daisy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Flower.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Rose.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/RoseBush.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Tulip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/MusicStore/Guitar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/MusicStore/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/MusicStore/MusicStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/MusicStore/MusicalInstrument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/MusicStore/Piano.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/MusicStore/Trumpet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/AudioFile.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module3/Directory/AudioFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module4/Area.class" afterPath="$PROJECT_DIR$/out/production/GoJavaOnlineLabs/Module4/Area.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoJavaOnlineLabs.iml" afterPath="$PROJECT_DIR$/GoJavaOnlineLabs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/Directoty.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/Directoty.java" />
     </list>
     <ignored path="GoJavaOnlineLabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +74,8 @@
       <file leaf-file-name="Directoty.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Module8/Directory/Directoty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1778291">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.6674365">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -1032,7 +1015,7 @@
       <workItem from="1457702448263" duration="820000" />
       <workItem from="1457707424123" duration="19001000" />
       <workItem from="1457980733809" duration="480000" />
-      <workItem from="1457982964129" duration="14279000" />
+      <workItem from="1457982964129" duration="14430000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1456434656929</created>
@@ -1250,11 +1233,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459098839789</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Module 8">
+      <created>1459098862567</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1459098862567</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61728000" />
+    <option name="totallyTimeSpent" value="61879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1749,8 +1738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Module8/Directory/Directoty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1778291">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.6674365">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding />
         </state>
       </provider>

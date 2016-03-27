@@ -36,8 +36,8 @@ class Directoty {
         text.setFileName("Coursework");
         files.add(text);
 
-        for (String n : files) {
-            System.out.println(files.get(n));
+        for (File n : files) {
+            System.out.println(n);
         }
     }
 
