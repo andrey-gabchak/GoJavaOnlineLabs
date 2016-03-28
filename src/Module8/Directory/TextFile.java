@@ -20,9 +20,9 @@ class TextFile extends File {
 
     private String fileName;
     private String fileFormat;
-    private double fileSize;
+    private int fileSize;
 
-    public TextFile(String fileName, String fileFormat, double fileSize) {
+    public TextFile(String fileName, String fileFormat, int fileSize) {
         super(fileName, fileFormat, fileSize);
         this.fileName = fileName;
         this.fileFormat = fileFormat;
@@ -35,28 +35,13 @@ class TextFile extends File {
     }
 
     @Override
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
-    }
-
-    @Override
     public String getFileFormat() {
         return fileFormat;
     }
 
     @Override
-    public void setFileFormat(String fileFormat) {
-        this.fileFormat = fileFormat;
-    }
-
-    @Override
-    public double getFileSize() {
+    public int getFileSize() {
         return fileSize;
-    }
-
-    @Override
-    public void setFileSize(int fileSize) {
-        this.fileSize = fileSize;
     }
 
     @Override

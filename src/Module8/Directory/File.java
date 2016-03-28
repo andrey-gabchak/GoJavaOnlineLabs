@@ -20,9 +20,9 @@ abstract class File {
 
     private String fileName;
     private String fileFormat;
-    private double fileSize;
+    private int fileSize;
 
-    public File(String fileName, String fileFormat, double fileSize) {
+    public File(String fileName, String fileFormat, int fileSize) {
         this.fileName = fileName;
         this.fileFormat = fileFormat;
         this.fileSize = fileSize;
@@ -32,24 +32,12 @@ abstract class File {
         return fileName;
     }
 
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
-    }
-
     public String getFileFormat() {
         return fileFormat;
     }
 
-    public void setFileFormat(String fileFormat) {
-        this.fileFormat = fileFormat;
-    }
-
-    public double getFileSize() {
+    public int getFileSize() {
         return fileSize;
-    }
-
-    public void setFileSize(int fileSize) {
-        this.fileSize = fileSize;
     }
 
     public abstract String toString();

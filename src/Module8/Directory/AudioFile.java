@@ -20,9 +20,9 @@ class AudioFile extends File {
 
     private String fileName;
     private String fileFormat;
-    private double fileSize;
+    private int fileSize;
 
-    public AudioFile(String fileName, String fileFormat, double fileSize) {
+    public AudioFile(String fileName, String fileFormat, int fileSize) {
         super(fileName, fileFormat, fileSize);
         this.fileName = fileName;
         this.fileFormat = fileFormat;
@@ -30,14 +30,20 @@ class AudioFile extends File {
     }
 
     @Override
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
-    }
-
-    @Override
     public String getFileName() {
         return fileName;
     }
+
+    @Override
+    public String getFileFormat() {
+        return fileFormat;
+    }
+
+    @Override
+    public int getFileSize() {
+        return fileSize;
+    }
+
 
     @Override
     public String toString() {

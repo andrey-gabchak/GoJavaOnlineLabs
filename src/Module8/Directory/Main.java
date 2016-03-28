@@ -1,5 +1,10 @@
 package Module8.Directory;
 
+import java.util.Comparator;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
+
 /**
  * class Main
  *
@@ -31,14 +36,24 @@ public class Main {
 
         Directoty directory = new Directoty();
 
-        directory.addFiles(new AudioFile("Ramstein", ".mp3", 3.88));
-        directory.addFiles(new AudioFile("БумБокс", ".mp3", 5.88));
-        directory.addFiles(new PicturesFile("PhotoSummer", ".png", 1.55));
-        directory.addFiles(new PicturesFile("PhotoWinter", ".png", 1.55));
-        directory.addFiles(new TextFile("Coursework", ".doc", 0.455));
-        directory.addFiles(new TextFile("JavaCodeConvention", ".pdf", 1.05));
+        directory.addFiles(new AudioFile("Ramstein", ".mp3", 3));
+        directory.addFiles(new AudioFile("БумБокс", ".mp3", 5));
+        directory.addFiles(new PicturesFile("PhotoSummer", ".png", 1));
+        directory.addFiles(new PicturesFile("PhotoWinter", ".png", 2));
+        directory.addFiles(new TextFile("Coursework", ".doc", 1));
+        directory.addFiles(new TextFile("JavaCodeConvention", ".pdf", 1));
 
         PrintCollectionAsATable.Print(directory.getSomeFiles());
+
+        Set<File> sortedNameList = new TreeSet<File>((o1, o2) -> o1.getFileName().compareTo(o2.getFileName()));
+        sortedNameList.addAll(directory.getSomeFiles());
+        System.out.println("\nSorted by Name:");
+        PrintCollectionAsATable.Print(sortedNameList);
+
+        Set<File> sortedSizeList = new TreeSet<File>((o1, o2) -> o1.getFileSize() - o2.getFileSize());
+        sortedSizeList.addAll(directory.getSomeFiles());
+        System.out.println("\nSorted by Size:");
+        PrintCollectionAsATable.Print(sortedSizeList);
 
     }
 }

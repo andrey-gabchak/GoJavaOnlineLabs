@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="Module 8">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/Directory/PrintCollectionAsATable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/NewDirectory/File/AudioFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/NewDirectory/File/Directory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/NewDirectory/File/File.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/NewDirectory/File/PictureFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/NewDirectory/File/TextFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/NewDirectory/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Module8/NewDirectory/PrintCollectionAsATable.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Aster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/BouquetOfFlowers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Daisy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Flower.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Rose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/RoseBush.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/BouquetOfFlowers/Tulip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/MusicStore/Guitar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/MusicStore/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/MusicStore/MusicStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/MusicStore/MusicalInstrument.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/MusicStore/Piano.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Module8/MusicStore/Trumpet.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="583fcd8e-fc4e-4ec9-aadb-f1d1544c6f2f" name="Default" comment="print collections in the form of a table">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/AudioFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/Directoty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/File.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/File.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/Main.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/PicturesFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module3/Directory/TextFile.java" afterPath="$PROJECT_DIR$/src/Module3/Directory/TextFile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/AudioFile.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/AudioFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/Directoty.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/Directoty.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/File.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/File.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/Main.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/PicturesFile.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/PicturesFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/PrintCollectionAsATable.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/PrintCollectionAsATable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Module8/Directory/TextFile.java" afterPath="$PROJECT_DIR$/src/Module8/Directory/TextFile.java" />
     </list>
     <ignored path="GoJavaOnlineLabs.iws" />
@@ -80,18 +51,32 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Module8/Directory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86374134">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state vertical-scroll-proportion="1.1570439">
+              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1654#1660#0" expanded="true" />
+                <element signature="e#1928#1934#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PictureFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/File/PictureFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="PrintCollectionAsATable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module8/Directory/PrintCollectionAsATable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -109,39 +94,65 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AudioFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module8/Directory/AudioFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module8/Directory/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PicturesFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module8/Directory/PicturesFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Module8/Directory/TextFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="55" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Directory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/File/Directory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintCollectionAsATable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Module8/Directory/PrintCollectionAsATable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -210,13 +221,13 @@
         <option value="$PROJECT_DIR$/src/Module8/NewDirectory/File/Directory.java" />
         <option value="$PROJECT_DIR$/src/Module8/NewDirectory/File/PictureFile.java" />
         <option value="$PROJECT_DIR$/src/Module8/NewDirectory/File/TextFile.java" />
-        <option value="$PROJECT_DIR$/src/Module8/Directory/AudioFile.java" />
-        <option value="$PROJECT_DIR$/src/Module8/Directory/File.java" />
-        <option value="$PROJECT_DIR$/src/Module8/Directory/PicturesFile.java" />
-        <option value="$PROJECT_DIR$/src/Module8/Directory/TextFile.java" />
         <option value="$PROJECT_DIR$/src/Module8/Directory/Directoty.java" />
-        <option value="$PROJECT_DIR$/src/Module8/Directory/PrintCollectionAsATable.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Module8/Directory/File.java" />
+        <option value="$PROJECT_DIR$/src/Module8/Directory/AudioFile.java" />
+        <option value="$PROJECT_DIR$/src/Module8/Directory/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/Module8/Directory/PicturesFile.java" />
+        <option value="$PROJECT_DIR$/src/Module8/Directory/PrintCollectionAsATable.java" />
         <option value="$PROJECT_DIR$/src/Module8/Directory/Main.java" />
       </list>
     </option>
@@ -422,6 +433,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Module8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewDirectory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1046,7 +1061,7 @@
       <workItem from="1457702448263" duration="820000" />
       <workItem from="1457707424123" duration="19001000" />
       <workItem from="1457980733809" duration="480000" />
-      <workItem from="1457982964129" duration="25792000" />
+      <workItem from="1457982964129" duration="29004000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1456434656929</created>
@@ -1276,11 +1291,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459099013156</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="print collections in the form of a table">
+      <created>1459114420159</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1459114420159</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73241000" />
+    <option name="totallyTimeSpent" value="76453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1293,7 +1314,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1305,7 +1326,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33573487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711622" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1332,7 +1353,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Выполнил ДЗ к модулю 1." />
     <MESSAGE value="Изменил название класса" />
     <MESSAGE value="Структура проекта согласно UML диаграммам" />
     <MESSAGE value="Родителями должны быть классы, а не пакеты. Пакеты не учитываются в UML диаграммах." />
@@ -1357,7 +1377,8 @@
     <MESSAGE value="How to fix the code duplication" />
     <MESSAGE value="Removed duplicate code" />
     <MESSAGE value="Module 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 8" />
+    <MESSAGE value="print collections in the form of a table" />
+    <option name="LAST_COMMIT_MESSAGE" value="print collections in the form of a table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1609,8 +1630,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="false" />
+            <element signature="e#180#181#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1620,27 +1641,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/File/PictureFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="false" />
+            <element signature="e#225#226#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#455#456#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1650,79 +1660,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="false" />
+            <element signature="e#178#179#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/AudioFile.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-          <folding>
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-          </folding>
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/TextFile.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding>
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/PicturesFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-          <folding>
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.1570439">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1735,6 +1691,16 @@
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/PrintCollectionAsATable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1754,22 +1720,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/PrintCollectionAsATable.java">
+    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="29" />
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/TextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/PicturesFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/File/PictureFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Module8/NewDirectory/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="55" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Module8/Directory/AudioFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1782,19 +1797,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module8/Directory/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86374134">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="1.1570439">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1654#1660#0" expanded="true" />
+            <element signature="e#1928#1934#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
