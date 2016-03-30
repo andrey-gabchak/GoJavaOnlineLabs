@@ -23,7 +23,7 @@ public class TypeArrayElemets {
         for (int i = 0; i < intArray.length; i++) {
 
             Scanner arrayElemets = new Scanner(System.in);
-            System.out.print("Enter the array element number " + i + " : ");
+            System.out.print("Enter the array element number " + (i + 1) + " : ");
             intArray[i] = arrayElemets.nextInt();
         }
 
