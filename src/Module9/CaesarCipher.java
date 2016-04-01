@@ -21,21 +21,6 @@ public class CaesarCipher {
     private static String alphabetRus = "абгвдеёжзийклмнопрстуфхцчшщъыьэюя";
     private static String upperCaseAlphabetRus = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
 
-    public static void main(String[] args) throws IOException {
-
-        System.out.println("Введите текст для шифрования:");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String openText = reader.readLine();
-
-        System.out.println(openText.length());
-        System.out.println("Введите ключ:");
-        int key = Integer.parseInt(reader.readLine());
-
-        String encodeValue = encode(openText, key);
-        System.out.println(encodeValue);
-        System.out.println(decode(encodeValue, key));
-    }
-
     public static String encode(String text, int key){
         StringBuilder encodedContent = new StringBuilder();
         for (int i = 0; i < text.length(); i++) {
