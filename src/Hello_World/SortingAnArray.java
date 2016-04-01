@@ -32,7 +32,7 @@ public class SortingAnArray {
     }
 
     //По возрастанию
-    public class InsertionSortUtil {
+    public static class InsertionSortUtil {
         public static void insertionSort(int[] array) {
             for (int i = 0; i < array.length; i++) {
                 for (int j = i; j > 0 && array[j-1] > array[j]; j--) {
