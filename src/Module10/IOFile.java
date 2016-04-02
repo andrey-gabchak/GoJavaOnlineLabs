@@ -2,6 +2,10 @@ package Module10;
 
 import java.io.*;
 
+import static Module9.CaesarCipher.decode;
+import static Module9.CaesarCipher.encode;
+
+
 /**
  * Created by coura on 02.04.2016.
  *
@@ -25,7 +29,7 @@ public class IOFile {
         BufferedReader keyReader = new BufferedReader(new InputStreamReader(System.in));
         int key = Integer.parseInt(keyReader.readLine());
 
-        String encodeText = Module9.CaesarCipher.encode(someText, key);
+        String encodeText = encode(someText, key);
 
         StringBuilder encodeStringBuilder = new StringBuilder();
         encodeStringBuilder.append(someText)
@@ -35,7 +39,7 @@ public class IOFile {
         String fullText = encodeStringBuilder.toString();
 
         writer(encodeFileName, fullText);
-        writer(decodeFileName, Module9.CaesarCipher.decode(encodeText, key));
+        writer(decodeFileName, decode(encodeText, key));
 
         reader(encodeFileName);
         reader(decodeFileName);
