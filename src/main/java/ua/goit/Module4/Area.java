@@ -25,7 +25,7 @@ public class Area {
 
         // calculate the area of a triangle
         if (figure == 1) {
-            double triangleResult = triagleArea();
+            double triangleResult = triagleValidation();
             if (triangleResult > 0) System.out.println("The area of a triangle is: " + triangleResult);
 
 
@@ -53,7 +53,7 @@ public class Area {
         }
     }
 
-    public static double triagleArea() throws IOException {
+    public static double triagleValidation() throws IOException {
         System.out.print("Enter the first side of the triangle size: ");
         BufferedReader triangle = new BufferedReader(new InputStreamReader(System.in));
         String sSide1 = triangle.readLine();
@@ -71,22 +71,27 @@ public class Area {
                 if (isPositiveInteger(sSide3)) {
                     int side3 = Integer.parseInt(sSide3);
 
-                    int summSide1 = side1 + side2;
-                    int summSide2 = side1 + side3;
-                    int summSide3 = side2 + side3;
-
-                    if ((summSide1 > side3) && (summSide2 > side2) && (summSide3 > side1)) {
-
-                        double perimeter = (side1 + side2 + side3) / 2.0;
-
-                        return Math.sqrt(perimeter * (perimeter - side1) *
-                                (perimeter - side2) * (perimeter - side3));
-
-                    }
+                    return triangleFormula(side1, side2, side3);
                 }
             }
         }
         return 0;
+    }
+
+    public static Double triangleFormula(int side1, int side2, int side3) {
+        int summSide1 = side1 + side2;
+        int summSide2 = side1 + side3;
+        int summSide3 = side2 + side3;
+
+        if ((summSide1 > side3) && (summSide2 > side2) && (summSide3 > side1)) {
+
+            double perimeter = (side1 + side2 + side3) / 2.0;
+
+            return Math.sqrt(perimeter * (perimeter - side1) *
+                    (perimeter - side2) * (perimeter - side3));
+
+        }
+        return 0.0;
     }
 
     public static int rectangleArea() throws IOException {
@@ -96,13 +101,20 @@ public class Area {
         String sFirstSide = rectangle.readLine();
         String sSecondSide = rectangle.readLine();
 
-        if ((isPositiveInteger(sFirstSide)) && (isPositiveInteger(sSecondSide))) {
+        if (isPositiveInteger(sFirstSide)) {
             int firstSide = Integer.parseInt(sFirstSide);
-            int secondSide = Integer.parseInt(sSecondSide);
 
-            return firstSide * secondSide;
+            if (isPositiveInteger(sSecondSide)) {
+                int secondSide = Integer.parseInt(sSecondSide);
+
+                return rectangleFormula(firstSide, secondSide);
+            }
         }
         return 0;
+    }
+
+    public static int rectangleFormula(int firstSide, int secondSide) {
+        return firstSide * secondSide;
     }
 
     public static double circleArea() throws IOException {
@@ -111,10 +123,15 @@ public class Area {
         BufferedReader circle = new BufferedReader(new InputStreamReader(System.in));
         String sRadius = circle.readLine();
 
-        if (isPositiveInteger(sRadius)) { // calculate the area of a circle the radius
+        if (isPositiveInteger(sRadius)) {
             int radius = Integer.parseInt(sRadius);
-            return Math.PI * Math.pow(radius, 2.0);
+
+            return circleFormula(radius);
         }
         return 0;
+    }
+
+    public static double circleFormula(int radius) {
+        return Math.PI * Math.pow(radius, 2.0);
     }
 }
