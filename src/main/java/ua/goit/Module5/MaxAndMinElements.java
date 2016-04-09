@@ -15,12 +15,12 @@ public class MaxAndMinElements {
 
         int[] intArray = {0, 1, 2, 4, 10, 6, 1};
 
-        System.out.println("Min element = " + Minimum(intArray));
-        System.out.println("Msx element = " + Maximum(intArray));
+        System.out.println("Min element = " + minimum(intArray));
+        System.out.println("Msx element = " + maximum(intArray));
 
     }
 
-    private static int Minimum (int Array[]) {
+    static int minimum(int Array[]) {
         int minVariable = Array[0];
 
         for (int count = 0; count < (Array.length - 1); count++) {
@@ -32,7 +32,7 @@ public class MaxAndMinElements {
         return minVariable;
     }
 
-    private static int Maximum (int Array[]) {
+    static int maximum(int Array[]) {
         int maxVarible = Array[0];
 
         for (int count = 0; count < (Array.length - 1); count++) {
