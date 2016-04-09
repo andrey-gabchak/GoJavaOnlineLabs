@@ -86,10 +86,14 @@ public class Area {
                             System.out.println("Triangle with such parties does not exist!");
                             return 0;
                         }
+                    } else {
+                        throw new IOException(sSide3);
                     }
                 } else {
-                    throw new IOException(sSide1);
+                    throw new IOException(sSide2);
                 }
+            } else {
+                throw new IOException(sSide1);
             }
         } catch (Exception e) {
             System.out.println("Side must be positive integer number!");
