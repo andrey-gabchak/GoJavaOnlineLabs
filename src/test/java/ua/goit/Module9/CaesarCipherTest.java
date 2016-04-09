@@ -6,6 +6,8 @@ import static org.junit.Assert.*;
 
 /**
  * Created by coura on 09.04.2016.
+ *
+ * Unit-tests for encoding and decoding of Caesar cipher.
  */
 
 public class CaesarCipherTest {
