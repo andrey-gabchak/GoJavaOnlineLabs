@@ -8,6 +8,8 @@ import java.io.File;
 
 /**
  * Created by coura on 09.04.2016.
+ *
+ * Unit-tests for writing text in file and reading text from file.
  */
 public class IOFileTest {
 
