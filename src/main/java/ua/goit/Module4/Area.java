@@ -57,48 +57,41 @@ public class Area {
         BufferedReader triangle = new BufferedReader(new InputStreamReader(System.in));
         String sSide1 = triangle.readLine();
 
-        if (isPositiveInteger(sSide1)) {
-            int side1 = Integer.parseInt(sSide1);
-            System.out.print("Enter the size of the second side of the triangle: ");
-            String sSide2 = triangle.readLine();
+        try {
+            if (isPositiveInteger(sSide1)) {
+                int side1 = Integer.parseInt(sSide1);
+                System.out.print("Enter the size of the second side of the triangle: ");
+                String sSide2 = triangle.readLine();
 
-            if (isPositiveInteger(sSide2)) {
-                int side2 = Integer.parseInt(sSide2);
-                System.out.print("Enter the third side of the triangle size: ");
-                String sSide3 = triangle.readLine();
+                if (isPositiveInteger(sSide2)) {
+                    int side2 = Integer.parseInt(sSide2);
+                    System.out.print("Enter the third side of the triangle size: ");
+                    String sSide3 = triangle.readLine();
 
-                if (isPositiveInteger(sSide3)) {
-                    int side3 = Integer.parseInt(sSide3);
+                    if (isPositiveInteger(sSide3)) {
+                        int side3 = Integer.parseInt(sSide3);
 
-                    int summSide1 = side1 + side2;
-                    int summSide2 = side1 + side3;
-                    int summSide3 = side2 + side3;
+                        int summSide1 = side1 + side2;
+                        int summSide2 = side1 + side3;
+                        int summSide3 = side2 + side3;
 
-                    if ((summSide1 > side3) && (summSide2 > side2) && (summSide3 > side1)) {
+                        if ((summSide1 > side3) && (summSide2 > side2) && (summSide3 > side1)) {
 
-                        double perimeter = (side1 + side2 + side3) / 2.0;
+                            double perimeter = (side1 + side2 + side3) / 2.0;
 
-                        return Math.sqrt(perimeter * (perimeter - side1) *
-                                (perimeter - side2) * (perimeter - side3));
+                            return Math.sqrt(perimeter * (perimeter - side1) *
+                                    (perimeter - side2) * (perimeter - side3));
 
-                    } else {
-                        System.out.println("Triangle with such parties does not exist!");
-                        return 0;
+                        } else {
+                            System.out.println("Triangle with such parties does not exist!");
+                            return 0;
+                        }
                     }
-
-                } else try {
-                    throw new IOException(sSide3);
-                } catch (IOException e) {
-                    System.out.println("Side must be positive integer number!");
+                } else {
+                    throw new IOException(sSide1);
                 }
-            } else try {
-                throw new IOException(sSide2);
-            } catch (IOException e) {
-                System.out.println("Side must be positive integer number!");
             }
-        } else try {
-            throw new IOException(sSide1);
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("Side must be positive integer number!");
         }
         return 0;
