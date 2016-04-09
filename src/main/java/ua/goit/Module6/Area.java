@@ -39,13 +39,13 @@ public class Area {
              * And cause classes if needed for calculating the figures.
              */
 
-            ua.goit.Module4.Area.TriagleArea();
+            ua.goit.Module4.Area.triagleArea();
 
         } else if (figure == 2) { // calculate the area of a rectangle
-            ua.goit.Module4.Area.RectangleArea();
+            ua.goit.Module4.Area.rectangleArea();
 
         } else if (figure == 3) { // the area of a circle
-            ua.goit.Module4.Area.CircleArea();
+            ua.goit.Module4.Area.circleArea();
 
         } else {
             //custom exception
