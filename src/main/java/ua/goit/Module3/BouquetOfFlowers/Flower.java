@@ -14,11 +14,7 @@ package ua.goit.Module3.BouquetOfFlowers;
  * Created by coura on 06.03.2016.
  */
 
-class Flower {
+interface Flower {
 
-    private String frowersName;
-
-    public String getFrowersName() {
-        return this.frowersName;
-    }
+    String getFlowersName();
 }

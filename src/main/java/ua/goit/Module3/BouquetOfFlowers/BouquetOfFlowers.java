@@ -18,16 +18,10 @@ class BouquetOfFlowers {
 
     static void someFlowers() {
 
-        Aster aster = new Aster();
-        Daisy daisy = new Daisy();
-        Rose rose = new Rose();
-        RoseBush roseBush = new RoseBush();
-        Tulip tulip = new Tulip();
-
-        System.out.println(aster.getFlowersName());
-        System.out.println(daisy.getFlowersName());
-        System.out.println(rose.getFlowersName());
-        System.out.println(roseBush.getFlowersName());
-        System.out.println(tulip.getFlowersName());
+        System.out.println(new Aster().getFlowersName());
+        System.out.println(new Daisy().getFlowersName());
+        System.out.println(new Rose().getFlowersName());
+        System.out.println(new RoseBush().getFlowersName());
+        System.out.println(new Tulip().getFlowersName());
     }
 }

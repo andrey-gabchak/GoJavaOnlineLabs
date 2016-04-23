@@ -14,10 +14,11 @@ package ua.goit.Module3.BouquetOfFlowers;
  * Created by coura on 06.03.2016.
  */
 
-class Rose extends Flower {
+class Rose implements Flower {
 
     private String flowersName = "Rose";
 
+    @Override
     public String getFlowersName() {
         return this.flowersName;
     }
