@@ -35,18 +35,18 @@ public class MatrixSnakeTraversal {
     public int[] print(int[][] input) {
         int[] result = new int[input.length * input[0].length];
 
-        int columns = input.length;
-        int lines = input[0].length;
+        int lines = input.length;
+        int columns = input[0].length;
 
         int resultCount = 0;
-        for (int y = 0; y < lines; y++) {
+        for (int y = 0; y < columns; y++) {
             if (y % 2 == 0) {
-                for (int x = 0; x < columns; x++) {
+                for (int x = 0; x < lines; x++) {
                     result[resultCount] = input[x][y];
                     resultCount++;
                 }
             } else {
-                for (int x = columns - 1; x >= 0; x--) {
+                for (int x = lines - 1; x >= 0; x--) {
                     result[resultCount] = input[x][y];
                     resultCount++;
                 }
