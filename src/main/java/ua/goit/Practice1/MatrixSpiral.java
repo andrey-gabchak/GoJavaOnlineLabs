@@ -17,43 +17,43 @@ public class MatrixSpiral {
         int columnsMinusOne = columns - 1;
 
         int count = 0;
-        int y = 0;
-        int x = 0;
-        int p = 0;
+        int startY = 0;
+        int startX = 0;
+        int index = 0;
 
         int[][] resultArray = new int[rows][columns];
 
         while (count != rows * columns - 1) {
-            while (x < columnsMinusOne) {
-                resultArray[y][x] = count++;
-                x++;
+            while (startX < columnsMinusOne) {
+                resultArray[startY][startX] = count++;
+                startX++;
             }
-            while (y < rowsMinusOne) {
-                resultArray[y][x] = count++;
-                y++;
+            while (startY < rowsMinusOne) {
+                resultArray[startY][startX] = count++;
+                startY++;
             }
-            while (x > p) {
-                resultArray[y][x] = count++;
-                x--;
+            while (startX > index) {
+                resultArray[startY][startX] = count++;
+                startX--;
             }
 
             //Здесь уменьшаем количество шагов в каждом цикле по строкам, столбцам и по количеству проходимых клеток клеток
             rowsMinusOne--;
             columnsMinusOne--;
-            p++;
-            while (y > p) {
-                resultArray[y][x] = count++;
-                y--;
+            index++;
+            while (startY > index) {
+                resultArray[startY][startX] = count++;
+                startY--;
             }
         }
         //Вот условие добавления последнего элемента
         if (count == rows * columns - 1) {
-            resultArray[y][x] = count++;
+            resultArray[startY][startX] = count++;
         }
 
-        for (y = 0; y < rows; y++) {
-            for (x = 0; x < columns; x++) {
-                System.out.printf("%4d", resultArray[y][x]);
+        for (startY = 0; startY < rows; startY++) {
+            for (startX = 0; startX < columns; startX++) {
+                System.out.printf("%4d", resultArray[startY][startX]);
             }
             System.out.println();
         }
