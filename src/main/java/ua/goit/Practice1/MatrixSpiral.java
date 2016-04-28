@@ -48,7 +48,7 @@ public class MatrixSpiral {
         }
         //Вот условие добавления последнего элемента
         if (count == rows * columns - 1) {
-            resultArray[startY][startX] = count++;
+            resultArray[startY][startX] = count;
         }
 
         for (startY = 0; startY < rows; startY++) {
