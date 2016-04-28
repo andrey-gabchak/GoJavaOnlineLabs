@@ -18,67 +18,102 @@ public class MatrixTraversal {
 
         int[] result = matrixTraversal.print(inputArray);
 
-        for (int item : result) {
-            System.out.print(item + " ");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
         }
     }
 
     public int[] print(int[][] input) {
+        int resultArraySize = input.length * input[0].length;
+        int[] resultArray = new int[resultArraySize];
 
-        if ((input.length > 1) && (input[0] != null)) {
+        if (resultArraySize != 0) {
 
-
-            int rows = input.length;
-            int columns = input[0].length;
-
-
-            int rowsMinusOne = rows - 1;
-            int columnsMinusOne = columns - 1;
+            int rows = input.length - 1;
+            int columns = input[0].length - 1;
 
             int count = 0;
             int y = 0;
             int x = 0;
-            int p = 0;
+            int index = 0;
 
-            int[] resultArray = new int[rows * columns];
 
-            while (count != rows * columns - 1) {
-                while (x < columnsMinusOne) {
+            while (count != resultArraySize - 1) {
+                while (x < columns) {
                     resultArray[count] = input[y][x];
                     count++;
                     x++;
                 }
-                while (y < rowsMinusOne) {
+                while (y < rows) {
                     resultArray[count] = input[y][x];
                     count++;
                     y++;
                 }
-                while (x > p) {
+                while (x > index) {
                     resultArray[count] = input[y][x];
-                    System.out.print(resultArray[count] + " ");
                     count++;
                     x--;
                 }
 
-                //Здесь уменьшаем количество шагов в каждом цикле по строкам, столбцам и по количеству проходимых клеток клеток
-                rowsMinusOne--;
-                columnsMinusOne--;
-                p++;
-                while (y > p) {
+                rows--;
+                columns--;
+                index++;
+                while (y > index) {
                     resultArray[count] = input[y][x];
                     count++;
                     y--;
                 }
             }
-            //Вот условие добавления последнего элемента
-            if (count == rows * columns - 1) {
+
+            if (count == resultArraySize - 1) {
                 resultArray[count] = input[y][x];
             }
 
-            return resultArray;
         }
-        int[] result = {};
-        return result;
+        return resultArray;
     }
 
+    public int[] printSecondWay(int[][] input) {
+        int[] result = new int[input.length * input[0].length];
+        int sizeX = input[0].length-1;
+        int sizeY = input.length-1;
+        int startX = 0;
+        int startY = 0;
+        int count = 1;
+        int index = 0;
+        while (index < result.length){
+            if (count == 1){
+                for (int i = startX; i <= sizeX; i++) {
+                    result[index] = input[startY][i];
+                    index++;
+                }
+                startY++;
+            }
+            if (count == 2){
+                for (int i = startY; i <= sizeY; i++) {
+                    result[index] = input[i][sizeX];
+                    index++;
+                }
+                sizeX--;
+            }
+            if (count == 3){
+                for (int i = sizeX; i >= startX; i--) {
+                    result[index] = input[sizeY][i];
+                    index++;
+                }
+                sizeY--;
+            }
+            if (count ==4){
+                for (int i = sizeY; i >= startY; i--) {
+                    result[index] = input[i][startX];
+                    index++;
+                }
+                startX++;
+            }
+            if (count < 4) count++;
+            else count=1;
+        }
+        return result;
+
+    }
 }
