@@ -30,6 +30,21 @@ public class MatrixTraversalTest {
     }
 
     @Test
+    public void testPrint4x3() throws Exception {
+        int[][] inputArray = {
+                {1, 2, 3, 4,},
+                {5, 6, 7, 8,},
+                {9, 10, 11, 12,},
+        };
+
+        int[] expectedArray = {1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7};
+
+        int[] resultArray = matrixTraversal.print(inputArray);
+
+        assertArrayEquals(expectedArray, resultArray);
+    }
+
+    @Test
     public void testPrint5x5() throws Exception {
         int[][] inputArray = {
                 {1, 2, 3, 4, 5},

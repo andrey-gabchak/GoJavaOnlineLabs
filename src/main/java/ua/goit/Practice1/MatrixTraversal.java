@@ -24,56 +24,6 @@ public class MatrixTraversal {
     }
 
     public int[] print(int[][] input) {
-        int resultArraySize = input.length * input[0].length;
-        int[] resultArray = new int[resultArraySize];
-
-        if (resultArraySize != 0) {
-
-            int rows = input.length - 1;
-            int columns = input[0].length - 1;
-
-            int count = 0;
-            int y = 0;
-            int x = 0;
-            int index = 0;
-
-
-            while (count != resultArraySize - 1) {
-                while (x < columns) {
-                    resultArray[count] = input[y][x];
-                    count++;
-                    x++;
-                }
-                while (y < rows) {
-                    resultArray[count] = input[y][x];
-                    count++;
-                    y++;
-                }
-                while (x > index) {
-                    resultArray[count] = input[y][x];
-                    count++;
-                    x--;
-                }
-
-                rows--;
-                columns--;
-                index++;
-                while (y > index) {
-                    resultArray[count] = input[y][x];
-                    count++;
-                    y--;
-                }
-            }
-
-            if (count == resultArraySize - 1) {
-                resultArray[count] = input[y][x];
-            }
-
-        }
-        return resultArray;
-    }
-
-    public int[] printSecondWay(int[][] input) {
         int[] result = new int[input.length * input[0].length];
         int sizeX = input[0].length-1;
         int sizeY = input.length-1;
