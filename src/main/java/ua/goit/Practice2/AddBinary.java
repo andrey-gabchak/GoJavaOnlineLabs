@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 /**
  * Created by coura on 29.04.2016.
- * <p>
  * Add the two unsigned numbers that is transmitted as strings.
  * "101" + "100" = "1001"
  */
