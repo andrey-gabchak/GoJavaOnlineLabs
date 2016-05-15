@@ -5,12 +5,8 @@ package ua.goit.Practice2;
  */
 public class PositiveAverageNumber {
     public int average(int a, int b) {
-        int result = 0;
-        if (a == b) {
-            result = a;
-        } else {
-            result = (a + b) / 2;
-        }
-        return result;
+        int mod = a % 2 + b % 2;
+        int result = a / 2 + b / 2;
+        return result + mod / 2;
     }
 }
