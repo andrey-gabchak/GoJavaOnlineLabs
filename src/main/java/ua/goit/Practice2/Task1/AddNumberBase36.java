@@ -1,4 +1,4 @@
-package ua.goit.Practice2;
+package ua.goit.Practice2.Task1;
 
 import java.math.BigInteger;
 import java.util.*;
