@@ -1,4 +1,4 @@
-package ua.goit.Practice2;
+package ua.goit.Practice2.Task2;
 
 /**
  * Created by coura on 02.05.2016.
