@@ -1,7 +1,7 @@
 package ua.goit.Practice2;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  * Created by coura on 29.04.2016.
@@ -13,12 +13,51 @@ import java.util.ArrayList;
  */
 
 public class AddNumberBase36 {
-    public static void main(String[] args) {
-        String str = "F2C22A3B6CA109A46D9B45DB3F2C578A";
-        BigInteger num = new BigInteger(str, 36);
-        System.out.println(""+num);
-    }
+
     public String add(String a, String b) {
-        return null;
+
+        String numbers = "0123456789abcdefghijklmnopqrstuvwxyz";
+        StringBuilder result = new StringBuilder();
+        a = new StringBuilder(a).reverse().toString().toLowerCase();
+        b = new StringBuilder(b).reverse().toString().toLowerCase();
+
+        int lengthOfMaxString;
+        String stringOfMaxLength;
+        if (a.length() >= b.length()){
+            lengthOfMaxString = a.length();
+            stringOfMaxLength = a;
+        }else {
+            lengthOfMaxString = b.length();
+            stringOfMaxLength = b;
+        }
+
+        int remainder = 0;
+        for (int i = 0; i < lengthOfMaxString; i++) {
+            try {
+                int sumOfIndex = numbers.indexOf(a.charAt(i)) + numbers.indexOf(b.charAt(i));
+                if (sumOfIndex + remainder < 36) {
+                    result.append(numbers.charAt(sumOfIndex + remainder));
+                    remainder = 0;
+                } else {
+                    result.append(numbers.charAt(sumOfIndex + remainder - 36));
+                    remainder = 1;
+                }
+            }catch (IndexOutOfBoundsException e){
+                for (int j = i; j < lengthOfMaxString; j++) {
+                    int index = numbers.indexOf(stringOfMaxLength.charAt(j));
+                    if (index + remainder < 36) {
+                        result.append(numbers.charAt(index + remainder));
+                        remainder = 0;
+                    } else {
+                        result.append(numbers.charAt(index + remainder - 36));
+                        remainder = 1;
+                    }
+                }
+                break;
+            }
+        }
+        if (remainder == 1) result.append(1);
+        return result.reverse().toString();
     }
+
 }
