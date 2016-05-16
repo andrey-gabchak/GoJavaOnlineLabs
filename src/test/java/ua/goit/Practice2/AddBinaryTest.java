@@ -1,6 +1,7 @@
 package ua.goit.Practice2;
 
 import org.junit.Test;
+import ua.goit.Practice2.Task7.AddBinary;
 
 import static org.junit.Assert.*;
 

@@ -1,7 +1,6 @@
 package ua.goit.Practice2.Task7;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
 
 /**
  * Created by coura on 29.04.2016.
@@ -13,20 +12,20 @@ public class AddBinary {
 
     }
 // implementation using a BigInteger
-//    String add(String a, String b) {
-//
-//        BigInteger aBig = new BigInteger(a, 2);
-//        BigInteger bBig = new BigInteger(b, 2);
-//
-//        BigInteger result = aBig.add(bBig);
-//
-//        String sResult = result.toString(2);
-//
-//        return sResult;
-//    }
+    String addBigInteger(String a, String b) {
+
+        BigInteger aBig = new BigInteger(a, 2);
+        BigInteger bBig = new BigInteger(b, 2);
+
+        BigInteger result = aBig.add(bBig);
+
+        String sResult = result.toString(2);
+
+        return sResult;
+    }
 
     //Implementation using cycle and charArray
-    String add(String a, String b) {
+    public String add(String a, String b) {
         char[] aArray = a.toCharArray();
         char[] bArray = b.toCharArray();
 
