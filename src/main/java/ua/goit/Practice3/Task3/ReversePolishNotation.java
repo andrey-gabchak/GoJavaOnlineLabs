@@ -1,4 +1,4 @@
-package ua.goit.Task3;
+package ua.goit.Practice3.Task3;
 
 import java.util.Stack;
 import java.util.StringTokenizer;
