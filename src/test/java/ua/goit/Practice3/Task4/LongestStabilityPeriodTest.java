@@ -1,7 +1,7 @@
 package ua.goit.Practice3.Task4;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
+import ua.goit.Practice3.Task2.LongestStabilityPeriod;
 
 import static org.junit.Assert.*;
 
