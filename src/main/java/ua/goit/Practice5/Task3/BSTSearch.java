@@ -11,34 +11,23 @@ public class BSTSearch {
     public boolean exist(TreeNode root, int target) {
         if (root == null)
             return false;
-        if (root.getValue() == target)
+        if (root.value == target)
             return true;
-        if (root.getValue() > target)
-            return exist(root.getLeft(), target);
+        if (root.value > target)
+            return exist(root.left, target);
         else
-            return exist(root.getRight(), target);
+            return exist(root.right, target);
     }
 }
 
+
 class TreeNode {
     int value;
-    TreeNode left, right;
+    TreeNode left, right; //If add getters and setters then task doesn't approve
 
     public TreeNode(int value, TreeNode left, TreeNode right) {
         this.value = value;
         this.left = left;
         this.right = right;
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-    public TreeNode getLeft() {
-        return left;
-    }
-
-    public TreeNode getRight() {
-        return right;
     }
 }
