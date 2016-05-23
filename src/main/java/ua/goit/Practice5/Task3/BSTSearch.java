@@ -6,6 +6,7 @@ package ua.goit.Practice5.Task3;
  * Знайти число в бінарному дереві пошуку і повернути true якщо воно присутнє,
  * інакше повернути false.
  */
+
 public class BSTSearch {
     public boolean exist(TreeNode root, int target) {
         if (root == null)
