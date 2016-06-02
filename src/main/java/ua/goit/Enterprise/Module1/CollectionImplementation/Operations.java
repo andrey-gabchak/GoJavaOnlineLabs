@@ -20,7 +20,7 @@ import java.util.*;
       remove(value)
  */
 
-public class TimeOfOperations {
+public class Operations {
 
     /**
      * The methods for list and set.
