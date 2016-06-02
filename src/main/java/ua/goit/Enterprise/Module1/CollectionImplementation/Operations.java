@@ -23,10 +23,7 @@ import java.util.*;
 public class Operations {
 
     /**
-     * The methods for list and set.
-     * @param collection
-     * @param count
-     * @return
+     * Common methods
      */
     public long timePopulating(Collection<Integer> collection, int count) {
         Integer[] arrayForPopulate = new Integer[count];
@@ -46,9 +43,6 @@ public class Operations {
 
     /**
      * The methods for the list only.
-     * @param list
-     * @param index
-     * @return
      */
     public long timeAddByIndex(List<Integer> list, int index) {
         long startTime = System.currentTimeMillis();
@@ -78,11 +72,17 @@ public class Operations {
         return System.currentTimeMillis() - startTime;
     }
 
+    public long timeIteratorRemoveAll(List<Integer> list) {
+        long startTime = System.currentTimeMillis();
+        ListIterator<Integer> iterator = list.listIterator();
+        while (iterator.hasNext()) {
+            iterator.remove();
+        }
+        return System.currentTimeMillis() - startTime;
+    }
+
     /**
      * The methods for the set only.
-     * @param set
-     * @param value
-     * @return
      */
     public long timeAddValue(Set<Integer> set, Integer value) {
         long startTime = System.currentTimeMillis();
