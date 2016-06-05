@@ -30,12 +30,12 @@ public class Operations {
 
     public long getTimePopulate(Collection<Integer> collection, int count) {
         Integer[] arrayToPopulate = Arrays.copyOfRange(getMillionArray(), 0, count);
+
         long startTime = System.currentTimeMillis();
         collection.addAll(Arrays.asList(arrayToPopulate));
         return System.currentTimeMillis() - startTime;
     }
 
-    //time savings in the creation of the array
     private Integer[] getMillionArray() {
         millionArray = new Integer[1000000];
         for (int i = 0; i < 1000000; i++) {
