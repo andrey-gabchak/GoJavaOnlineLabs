@@ -25,38 +25,6 @@ public class TimeOfOperations {
         return resultFor1000K;
     }
 
-    private ArrayList<String> getListTime(List<Integer> list, int count) {
-        ArrayList<String> resultList = new ArrayList<>();
-        //Maximum time taken
-        resultList.add(list.getClass().getSimpleName());
-        String populateTime = String.valueOf(operations.getTimePopulate(list, count));
-        resultList.add(String.valueOf(operations.getTimeAddByIndex(list, count / 2)));
-        resultList.add(String.valueOf(operations.getTimeGetByIndex(list, count / 2)));
-        resultList.add(String.valueOf(operations.getTimeRemoveByIndex(list, 1)));
-        resultList.add(String.valueOf(operations.getTimeContains(list, count / 2)));
-        resultList.add(populateTime);
-        resultList.add(String.valueOf(operations.getTimeIteratorAdd(list)));
-        resultList.add(String.valueOf(operations.getTimeIteratorRemove(list)));
-
-        return resultList;
-    }
-
-    private ArrayList<String> getSetTime(Set<Integer> set, int count) {
-        ArrayList<String> resultList = new ArrayList<>();
-        String populateTime = String.valueOf(operations.getTimePopulate(set, count));
-        resultList.add(set.getClass().getSimpleName());
-        resultList.add(String.valueOf(operations.getTimeAddValue(set, count + 1)));
-        resultList.add(String.valueOf(operations.getTimeRemoveValue(set, count / 2)));
-        resultList.add(String.valueOf(operations.getTimeContains(set, count / 2)));
-        resultList.add(populateTime);
-        //crutches for library write to file
-        resultList.add("-");
-        resultList.add("-");
-        resultList.add("-");
-
-        return resultList;
-    }
-
     public List<List<String>> getTimeList(int count) {
         return Arrays.asList(
                 getListTime(new ArrayList<Integer>(), count),
@@ -66,6 +34,95 @@ public class TimeOfOperations {
         );
     }
 
+    private ArrayList<String> getListTime(List<Integer> inputList, int count) {
+        ArrayList<String> resultList = new ArrayList<>();
+        //Maximum time taken
+        resultList.add(inputList.getClass().getSimpleName());
+        String populateTime = String.valueOf(operations.getTimePopulate(inputList, count));
+        resultList.add(getAverageTimeAddByIndex(inputList, count));
+        resultList.add(getAverageTimeGetTimeByIndex(inputList, count));
+        resultList.add(getAverageTimeRemoveByIndex(inputList, count));
+        resultList.add(getAverageTimeContains(inputList, count));
+        resultList.add(populateTime);
+        resultList.add(String.valueOf(operations.getTimeIteratorAdd(inputList)));
+        resultList.add(String.valueOf(operations.getTimeIteratorRemove(inputList)));
 
+        return resultList;
+    }
+
+    private ArrayList<String> getSetTime(Set<Integer> inputSet, int count) {
+        ArrayList<String> resultList = new ArrayList<>();
+        String populateTime = String.valueOf(operations.getTimePopulate(inputSet, count));
+        resultList.add(inputSet.getClass().getSimpleName());
+        resultList.add(getAverageTimeAddValue(inputSet, count));
+        resultList.add(getAverageTimeRemoveValue(inputSet, count));
+        resultList.add(getAverageTimeContains(inputSet, count));
+        resultList.add(populateTime);
+        //crutches for library write to file
+        resultList.add("-");
+        resultList.add("-");
+        resultList.add("-");
+
+        return resultList;
+    }
+
+    private String getAverageTimeAddByIndex(List<Integer> list, int count) {
+        long average = 0;
+        for (int i = 0; i < 100; i++) {
+            long time = operations.getTimeAddByIndex(list, new Random().nextInt(count));
+            if (i < 1) average += time;
+            average = (average + time) / 2;
+        }
+        return String.valueOf(average);
+    }
+
+    private String getAverageTimeGetTimeByIndex(List<Integer> list, int count) {
+        long average = 0;
+        for (int i = 0; i < 100; i++) {
+            long time = operations.getTimeGetByIndex(list, new Random().nextInt(count));
+            if (i < 1) average += time;
+            average = (average + time) / 2;
+        }
+        return String.valueOf(average);
+    }
+
+    private String getAverageTimeRemoveByIndex(List<Integer> list, int count) {
+        long average = 0;
+        for (int i = 0; i < 100; i++) {
+            long time = operations.getTimeRemoveByIndex(list, new Random().nextInt(count));
+            if (i < 1) average += time;
+            average = (average + time) / 2;
+        }
+        return String.valueOf(average);
+    }
+
+    private String getAverageTimeContains(Collection<Integer> collection, int count) {
+        long average = 0;
+        for (int i = 0; i < 100; i++) {
+            long time = operations.getTimeContains(collection, new Random().nextInt(count));
+            if (i < 1) average += time;
+            average = (average + time) / 2;
+        }
+        return String.valueOf(average);
+    }
+
+    private String getAverageTimeAddValue(Set<Integer> set, int count) {
+        long average = 0;
+        for (int i = 0; i < 100; i++) {
+            average = (operations.getTimeAddValue(set, new Random().nextInt(count) - count) +
+                    operations.getTimeAddValue(set, new Random().nextInt(count) + count)) / 2;
+        }
+        return String.valueOf(average);
+    }
+
+    private String getAverageTimeRemoveValue(Set<Integer> set, int count) {
+        long average = 0;
+        for (int i = 0; i < 100; i++) {
+            long time = operations.getTimeRemoveValue(set, new Random().nextInt(count));
+            if (i < 1) average += time;
+            average = (average + time) / 2;
+        }
+        return String.valueOf(average);
+    }
 
 }
