@@ -1,8 +1,6 @@
 package ua.goit.Enterprise.Module1.CollectionImplementation;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by coura on 05.06.2016.
@@ -11,8 +9,23 @@ import java.util.Set;
 public class TimeOfOperations {
 
     private static Operations operations = new Operations();
+    private List<List<String>> resultFor10K = getTimeList(10000);
+    private List<List<String>> resultFor100K = getTimeList(100000);
+    private List<List<String>> resultFor1000K = getTimeList(1000000);
 
-    public ArrayList<String> getListTime(List<Integer> list, int count) {
+    public List<List<String>> getResultFor10K() {
+        return resultFor10K;
+    }
+
+    public List<List<String>> getResultFor100K() {
+        return resultFor100K;
+    }
+
+    public List<List<String>> getResultFor1000K() {
+        return resultFor1000K;
+    }
+
+    private ArrayList<String> getListTime(List<Integer> list, int count) {
         ArrayList<String> resultList = new ArrayList<>();
         //Maximum time taken
         resultList.add(list.getClass().getSimpleName());
@@ -28,7 +41,7 @@ public class TimeOfOperations {
         return resultList;
     }
 
-    public ArrayList<String> getSetTime(Set<Integer> set, int count) {
+    private ArrayList<String> getSetTime(Set<Integer> set, int count) {
         ArrayList<String> resultList = new ArrayList<>();
         String populateTime = String.valueOf(operations.getTimePopulate(set, count));
         resultList.add(set.getClass().getSimpleName());
@@ -42,6 +55,15 @@ public class TimeOfOperations {
         resultList.add("-");
 
         return resultList;
+    }
+
+    public List<List<String>> getTimeList(int count) {
+        return Arrays.asList(
+                getListTime(new ArrayList<Integer>(), count),
+                getListTime(new LinkedList<Integer>(), count),
+                getSetTime(new HashSet<Integer>(), count),
+                getSetTime(new TreeSet<Integer>(), count)
+        );
     }
 
 
