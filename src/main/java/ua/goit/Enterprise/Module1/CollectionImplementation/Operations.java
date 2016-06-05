@@ -25,17 +25,26 @@ public class Operations {
     /**
      * Common methods
      */
-    public long timePopulating(Collection<Integer> collection, int count) {
-        Integer[] arrayForPopulate = new Integer[count];
-        for (int i = 0; i < count; i++) {
-            arrayForPopulate[i] = i;
-        }
+
+    private Integer[] millionArray;
+
+    public long getTimePopulate(Collection<Integer> collection, int count) {
+        Integer[] arrayToPopulate = Arrays.copyOfRange(getMillionArray(), 0, count);
         long startTime = System.currentTimeMillis();
-        collection.addAll(Arrays.asList(arrayForPopulate));
+        collection.addAll(Arrays.asList(arrayToPopulate));
         return System.currentTimeMillis() - startTime;
     }
 
-    public long timeContaining(Collection<Integer> collection, int value) {
+    //time savings in the creation of the array
+    private Integer[] getMillionArray() {
+        millionArray = new Integer[1000000];
+        for (int i = 0; i < 1000000; i++) {
+            millionArray[i] = i;
+        }
+        return millionArray;
+    }
+
+    public long getTimeContains(Collection<Integer> collection, int value) {
         long startTime = System.currentTimeMillis();
         collection.contains(value);
         return System.currentTimeMillis() - startTime;
@@ -44,39 +53,40 @@ public class Operations {
     /**
      * The methods for the list only.
      */
-    public long timeAddByIndex(List<Integer> list, int index) {
+    public long getTimeAddByIndex(List<Integer> list, int index) {
         long startTime = System.currentTimeMillis();
         list.add(index);
         return System.currentTimeMillis() - startTime;
     }
 
 
-    public long timeRemoveByIndex(List<Integer> list, int index) {
+    public long getTimeRemoveByIndex(List<Integer> list, int index) {
         long startTime = System.currentTimeMillis();
         list.remove(index);
         return System.currentTimeMillis() - startTime;
     }
 
-    public long timeGetByIndex(List<Integer> list, int index) {
+    public long getTimeGetByIndex(List<Integer> list, int index) {
         long startTime = System.currentTimeMillis();
         list.get(index);
         return System.currentTimeMillis() - startTime;
     }
 
-    public long timeAddCount(List<Integer> list, int count) {
+    public long getTimeIteratorRemove(List<Integer> list) {
         long startTime = System.currentTimeMillis();
         ListIterator<Integer> iterator = list.listIterator();
-        for (int i = 0; i < count; i++) {
-            iterator.add(i);
+        while (iterator.hasNext()) {
+            String s = String.valueOf(iterator.next());
+            iterator.remove();
         }
         return System.currentTimeMillis() - startTime;
     }
 
-    public long timeIteratorRemoveAll(List<Integer> list) {
+    public long getTimeIteratorAdd(List<Integer> list) {
         long startTime = System.currentTimeMillis();
         ListIterator<Integer> iterator = list.listIterator();
         while (iterator.hasNext()) {
-            iterator.remove();
+            iterator.add(iterator.next());
         }
         return System.currentTimeMillis() - startTime;
     }
@@ -84,13 +94,13 @@ public class Operations {
     /**
      * The methods for the set only.
      */
-    public long timeAddValue(Set<Integer> set, Integer value) {
+    public long getTimeAddValue(Set<Integer> set, Integer value) {
         long startTime = System.currentTimeMillis();
         set.add(value);
         return System.currentTimeMillis() - startTime;
     }
 
-    public long timeRemoveValue(Set<Integer> set, Integer value) {
+    public long getTimeRemoveValue(Set<Integer> set, Integer value) {
         long startTime = System.currentTimeMillis();
         set.remove(value);
         return System.currentTimeMillis() - startTime;
