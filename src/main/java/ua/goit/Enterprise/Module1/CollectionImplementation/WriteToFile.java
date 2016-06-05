@@ -40,7 +40,7 @@ public class WriteToFile {
                 headersList, resultFor100K).tableToBlocks()).build().getPreview();
 
         Board boardFor1000K = new Board(weightOfRow);
-        String tableToString1000K = boardFor100K.setInitialBlock(new Table(boardFor1000K, weightOfRow,
+        String tableToString1000K = boardFor1000K.setInitialBlock(new Table(boardFor1000K, weightOfRow,
                 headersList, resultFor1000K).tableToBlocks()).build().getPreview();
 
         String filePath = "src\\main\\java\\ua\\goit" +
@@ -52,8 +52,11 @@ public class WriteToFile {
             }
 
             PrintWriter writer = new PrintWriter(filePath);
+            writer.println("Results for 10K");
             writer.println(tableToString10K);
+            writer.println("Results for 100K");
             writer.println(tableToString100K);
+            writer.println("Results for 1000K");
             writer.println(tableToString1000K);
             writer.close();
         } catch (IOException e) {
