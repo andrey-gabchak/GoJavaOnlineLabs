@@ -8,6 +8,10 @@ import ua.goit.Enterprise.Module2.Interfaces.Task;
 public class LongTask implements Task<Long> {
     private Long result;
 
+    public LongTask(Long result) {
+        this.result = result;
+    }
+
     // Метода запускает таск на выполнение
     public void execute() {
         System.out.println(getResult());
