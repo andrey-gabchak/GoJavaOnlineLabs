@@ -11,7 +11,7 @@ public interface Executor<T> {
 
     // Добавить таск на выполнение. Результат таска будет доступен через метод getValidResults().
     // Бросает Эксепшн если уже был вызван метод execute()
-    void addTask(Task<? extends T> task) throws Exception;
+    void addTask(Task<T> task) throws Exception;
 
     // Добавить таск на выполнение и валидатор результата. Результат таска будет записан в ValidResults
     // если validator.isValid вернет true для этого результата
