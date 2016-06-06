@@ -12,14 +12,14 @@ import java.util.List;
  *
  */
 public class ExecutorImpl<T> implements Executor<T> {
-    private List<Task<? extends T>> allTasks = new ArrayList<>();
+    private List<Task<T>> allTasks = new ArrayList<>();
     private List<T> validTasks = new ArrayList<>();
     private List<T> invalidTasks = new ArrayList<>();
 
     // Добавить таск на выполнение. Результат таска будет доступен через метод getValidResults().
     // Бросает Эксепшн если уже был вызван метод execute()
     @Override
-    public void addTask(Task<? extends T> task) throws Exception {
+    public void addTask(Task<T> task) throws Exception {
         allTasks.add(task);
     }
 
@@ -54,5 +54,10 @@ public class ExecutorImpl<T> implements Executor<T> {
     @Override
     public List<T> getInvalidResults() throws Exception {
         return invalidTasks;
+    }
+
+    //The method special for tests
+    public List<Task<T>> getAllTasks() {
+        return allTasks;
     }
 }
