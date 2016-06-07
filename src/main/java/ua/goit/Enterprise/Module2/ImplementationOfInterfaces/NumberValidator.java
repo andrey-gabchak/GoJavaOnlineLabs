@@ -7,10 +7,10 @@ import ua.goit.Enterprise.Module2.Interfaces.Validator;
  *
  * Validation by Number class.
  */
-public class NumberValidator implements Validator<Number> {
+public class NumberValidator<T> implements Validator<T> {
 
     // Валидирует переданое значение
-    public boolean isValid(Number result) {
-        return (result != null);
+    public boolean isValid(T result) {
+        return (result != null) && (result instanceof Number);
     }
 }
