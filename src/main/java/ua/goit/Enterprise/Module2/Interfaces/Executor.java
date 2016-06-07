@@ -20,7 +20,7 @@ public interface Executor<T> {
     void addTask(Task<? extends T> task, Validator<? super T> validator) throws Exception;
 
     // Выполнить все добавленые таски
-    void execute();
+    void execute() throws Exception;
 
     // Получить валидные результаты. Бросает Эксепшн если не был вызван метод execute()
     List<T> getValidResults() throws Exception;
