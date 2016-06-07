@@ -38,9 +38,9 @@ public class ExecutorImpl<T> implements Executor<T> {
 
     // Выполнить все добавленые таски
     @Override
-    public void execute() {
-        for (T validTask : validTasks) {
-            System.out.println(validTask);
+    public void execute() throws Exception {
+        for (Task<T> task : allTasks) {
+            addTask(task, new NumberValidator<T>());
         }
     }
 
