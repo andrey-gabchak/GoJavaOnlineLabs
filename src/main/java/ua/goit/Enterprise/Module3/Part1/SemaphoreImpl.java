@@ -8,7 +8,7 @@ package ua.goit.Enterprise.Module3.Part1;
 public class SemaphoreImpl implements Semaphore {
 
     private volatile int counter;
-    private static int MAX_FLOW_COUNT;
+    private static int MAX_TREAD_COUNT;
     private static final Object lock = new Object();
 
     public SemaphoreImpl() {
@@ -18,7 +18,7 @@ public class SemaphoreImpl implements Semaphore {
     public SemaphoreImpl(int permits) {
         if (permits < 0) throw new IllegalArgumentException(permits + " < 0");
         this.counter = permits;
-        MAX_FLOW_COUNT = permits;
+        MAX_TREAD_COUNT = permits;
     }
 
     // Запрашивает разрешение. Если есть свободное захватывает его.
@@ -65,7 +65,7 @@ public class SemaphoreImpl implements Semaphore {
     @Override
     public void release() {
         synchronized (lock) {
-            if (counter < MAX_FLOW_COUNT) {
+            if (counter < MAX_TREAD_COUNT) {
                 counter++;
                 lock.notify();
             }
@@ -77,7 +77,7 @@ public class SemaphoreImpl implements Semaphore {
     public void release(int permits) {
         synchronized (lock) {
             if (permits < 0) throw new IllegalArgumentException();
-            if (counter + permits >= MAX_FLOW_COUNT) {
+            if (counter + permits >= MAX_TREAD_COUNT) {
                 counter += permits;
                 lock.notify();
             }
