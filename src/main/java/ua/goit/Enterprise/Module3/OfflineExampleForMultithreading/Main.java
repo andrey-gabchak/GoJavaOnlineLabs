@@ -15,8 +15,8 @@ public class Main {
     
     
     public static void main(String[] args){
-       // new Thread(producer).start();
-       // new Thread(consumer).start();        
+        new Thread(producer).start();
+        new Thread(consumer).start();
        
            
        /*Timer timer = new Timer();

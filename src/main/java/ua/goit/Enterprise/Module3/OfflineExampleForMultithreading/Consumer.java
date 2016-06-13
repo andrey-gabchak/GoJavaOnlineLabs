@@ -6,30 +6,29 @@
 package ua.goit.Enterprise.Module3.OfflineExampleForMultithreading;
 
 /**
- *
  * @author dev83
  */
-public class Consumer implements Runnable{
+public class Consumer implements Runnable {
 
     @Override
     public void run() {
-        while(true){
-            synchronized(this){
-                while(!Main.producer.isProduced()){
+        while (true) {
+            synchronized (this) {
+                while (!Main.producer.isProduced()) {
                     try {
                         System.out.println("Consumer.@Before wait");
-                        wait();      
+                        wait();
                         System.out.println("Consumer.@After wait");
                     } catch (InterruptedException ex) {
                         ex.printStackTrace();
                     }
                 }
             }
-            synchronized(Main.producer){
+            synchronized (Main.producer) {
                 try {
-                    int number=Main.producer.getProductNumber();
-                    System.out.println("\tConsumed:"+number);
-                   // Thread.sleep(3000);
+                    int number = Main.producer.getProductNumber();
+                    System.out.println("\tConsumed:" + number);
+                     Thread.sleep(3000);
                     Main.producer.notifyAll();
                 } catch (Exception ex) {
                     ex.printStackTrace();
@@ -37,5 +36,5 @@ public class Consumer implements Runnable{
             }
         }
     }
-    
+
 }
