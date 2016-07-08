@@ -17,6 +17,6 @@ public class Main {
         IntStream.range(0, 10).forEach(i -> System.out.print(values[i] + " "));
 
         System.out.println();
-        System.out.println(new SquareSumRealization().getSquareSum(values, 3));
+        System.out.println(new SquareSumImplementation().getSquareSum(values, 3));
     }
 }
