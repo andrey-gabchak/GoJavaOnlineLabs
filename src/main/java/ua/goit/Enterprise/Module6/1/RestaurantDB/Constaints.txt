@@ -1,0 +1,13 @@
+alter table ingredients_for_dish add constraint dish_id_fk foreign key (id_dish) references dish (id);
+alter table ingredients_for_dish add constraint ingredients_id_fk foreign key (id_ingredient) references ingredients (id);
+
+alter table ordered_dishes add constraint order_id_fk foreign key (id_order) references orders (id);
+alter table ordered_dishes add constraint dish_id_fk foreign key (id_dish) references dish (id);
+alter table ordered_dishes add constraint dish_status_id_fk foreign key (id_dish_status) references dish_status (id);
+alter table ordered_dishes add constraint employee_id_fk foreign key (id_employee) references employee (id);
+
+alter table employee add constraint waiter_id_fk foreign key (id_employee) references employee (id);
+
+ALTER TABLE EMPLOYEE ADD CONSTRAINT POSITION_ID_FK FOREIGN KEY (ID_POSITION) REFERENCES POSITION (ID);
+
+alter table dish add constraint category_of_dish_id_fk foreign key (id_category) references category_of_dishes (id);

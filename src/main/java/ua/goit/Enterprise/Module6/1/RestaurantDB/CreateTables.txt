@@ -1,0 +1,66 @@
+
+CREATE TABLE EMPLOYEE(
+	ID int PRIMARY KEY NOT NULL,
+	SURNAME varchar(30) NOT NULL,
+	NAME varchar(25) NOT NULL,
+	DATE_OF_BIRTH date;
+	phone character(10),
+	ID_POSITION int,
+	salary real,
+    JOIN_DATE date
+);
+
+CREATE TABLE POSITION(
+	ID int PRIMARY KEY NOT NULL,
+    NAME varchar(25) NOT NULL
+);
+
+CREATE TABLE DISH(
+    ID int PRIMARY KEY NOT NULL,
+    NAME varchar(50) NOT NULL,
+    DESCRIPTION TEXT,
+    WEIGHT real,
+    ID_EMPLOYEE int,
+    PRICE real,
+    ID_CATEGORY int
+);
+
+CREATE TABLE INGREDIENTS(
+    ID int PRIMARY KEY NOT NULL,
+    NAME varchar(50) NOT NULL,
+    QUANTITY int NOT NULL
+);
+
+CREATE TABLE ORDERS(
+    ID int PRIMARY KEY NOT NULL,
+    ID_EMPLOYEE int NOT NULL,
+    ID_DISH int NOT NULL,
+    ID_TABLE int,
+    DATE date
+);
+
+CREATE TABLE ORDERED_DISHES(
+    ID int PRIMARY KEY NOT NULL,
+    ID_ORDER int NOT NULL,
+    ID_DISH int NOT NULL,
+    QUANTITY_OF_DISH int NOT NULL,
+    ID_DISH_STATUS int NOT NULL,
+    ID_EMPLOYEE int NOT NULL,
+    DATE_WHEN_COOKED date
+);
+
+CREATE TABLE DISH_STATUS(
+	ID int PRIMARY KEY NOT NULL,
+	NAME varchar(50) NOT NULL
+);
+
+CREATE TABLE INGREDIENTS_FOR_DISH(
+	ID int PRIMARY KEY NOT NULL,
+	ID_DISH int NOT NULL,
+	ID_INGREDIENT int NOT NULL
+);
+
+create table category_of_dishes(
+	id int primary key not null,
+	name varchar(50) not null
+);

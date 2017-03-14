@@ -1,0 +1,28 @@
+Menu
+    select name, description, weight, price from dish;
+
+Orders
+    select orders.id_table, employee.name, employee.surname, dish.name, dish_status.name, orders.id, orders.date from orders
+    inner join employee on orders.id_employee = employee.id
+    inner join ordered_dishes on orders.id = ordered_dishes.id_order
+    inner join dish on ordered_dishes.id_dish = dish.id
+    inner join dish_status on dish_status.id = ordered_dishes.id_dish_status;
+
+Employees
+    select employee.name, employee.surname, employee.date_of_birth, employee.phone, position.name, employee.salary from employee
+    inner join position on position.id = employee.id_position;
+
+Ordered dishes
+    select dish.name, employee.name, employee.surname, ordered_dishes.id_order, dish_status.name from ordered_dishes
+    inner join dish on ordered_dishes.id_dish = dish.id
+    inner join employee on ordered_dishes.id_employee = employee.id
+    inner join dish_status on ordered_dishes.id_dish_status = dish_status.id;
+
+Dishes
+    select dish.name, category_of_dishes.name, dish.price, dish.weight, ingredients.name from dish
+    inner join category_of_dishes on dish.id_category = category_of_dishes.id
+    inner join ingredients_for_dish on ingredients_for_dish.id_dish = dish.id
+    inner join ingredients on ingredients_for_dish.id_ingredient = ingredients.id;
+
+Storehouse
+    select name, quantity from ingredients;
