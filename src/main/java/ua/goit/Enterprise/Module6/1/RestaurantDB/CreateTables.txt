@@ -3,7 +3,7 @@ CREATE TABLE EMPLOYEE(
 	ID int PRIMARY KEY NOT NULL,
 	SURNAME varchar(30) NOT NULL,
 	NAME varchar(25) NOT NULL,
-	DATE_OF_BIRTH date;
+	DATE_OF_BIRTH date,
 	phone character(10),
 	ID_POSITION int,
 	salary real,
