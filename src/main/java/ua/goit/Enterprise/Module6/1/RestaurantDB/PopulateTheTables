@@ -32,23 +32,18 @@ INSERT INTO EMPLOYEE VALUES (11, 'Popov', 'Denis', '1994-01-01', '0501234567', 2
 INSERT INTO DISH_STATUS VALUES (1, 'DONE');
 INSERT INTO DISH_STATUS VALUES (2, 'NOT READY');
 
-insert into dish values (1, 'borscht', 'Ukrainian national dish', 50, 300);
-insert into dish values (2, 'Espresso', 'Strong smoll coffee', 30, 30);
-insert into dish values (3, 'Americano', 'Medium coffee', 30, 60);
-insert into dish values (4, 'Latte', 'Smoothly steamed milk meets rich espresso thin layer of foam', 45, 300);
-insert into dish values (5, 'Cappuccino', 'Dark, rich espresso lies in wait under a smoothed and stretched layer of thick foam. It"s truly the height of our baristas" craft.', 40, 250);
-insert into dish values (6, 'Mushroom & lentil pappardelle bolognese', 'Tasty pasta', 60, 60);
+insert into dish values (1, 'borscht', 'Ukrainian national dish', 50, 300, 10, 1);
+insert into dish values (2, 'Espresso', 'Strong small coffee', 30, 30, 1, 1);
+insert into dish values (3, 'Americano', 'Medium coffee', 30, 60, 1, 1);
+insert into dish values (4, 'Latte', 'Smoothly steamed milk meets rich espresso thin layer of foam', 45, 300, 2, 1);
+insert into dish values (5, 'Cappuccino', 'Dark, rich espresso lies in wait under a smoothed and stretched layer of thick foam.', 40, 250, 2, 1);
+insert into dish values (6, 'Mushroom & lentil pappardelle bolognese', 'Tasty pasta', 60, 60, 15, 6);
 
-update dish
-set id_category = 2;
+update dish set id_category = 2;
 
-update dish
-set id_category = 1
-where id = 1;
+update dish set id_category = 1 where id = 1;
 
-update dish
-set id_category = 3
-where id = 6;
+update dish set id_category = 3 where id = 6;
 
 insert into ingredients_for_dish values (1, 1, 1);
 insert into ingredients_for_dish values (2, 1, 2);
