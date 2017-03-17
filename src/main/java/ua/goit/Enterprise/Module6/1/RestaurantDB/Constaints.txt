@@ -6,7 +6,7 @@ alter table ordered_dishes add constraint dish_id_fk foreign key (id_dish) refer
 alter table ordered_dishes add constraint dish_status_id_fk foreign key (id_dish_status) references dish_status (id);
 alter table ordered_dishes add constraint employee_id_fk foreign key (id_employee) references employee (id);
 
-alter table employee add constraint waiter_id_fk foreign key (id_employee) references employee (id);
+alter table orders add constraint waiter_id_fk foreign key (id_employee) references employee (id);
 
 ALTER TABLE EMPLOYEE ADD CONSTRAINT POSITION_ID_FK FOREIGN KEY (ID_POSITION) REFERENCES POSITION (ID);
 
